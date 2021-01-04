@@ -97,7 +97,8 @@
 		"Shaft Miner",
 		"Salvage Technician")
 	min_skill = list(   SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_EVA     = SKILL_BASIC)
+	                    SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_PILOT   = SKILL_BASIC)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
 
