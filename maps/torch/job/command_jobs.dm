@@ -413,8 +413,7 @@
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 						SKILL_SCIENCE     = SKILL_MAX)
-=======
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
+						
 
 	skill_points = 20
 
