@@ -195,9 +195,12 @@
 	)
 	min_skill = list(   SKILL_COMPUTER		= SKILL_ADEPT,
 	                    SKILL_DEVICES		= SKILL_ADEPT,
-	                    SKILL_EVA           = SKILL_ADEPT,
-	                    SKILL_ANATOMY       = SKILL_ADEPT,
-	                    SKILL_MECH          = HAS_PERK)
+	                    SKILL_ANATOMY       = SKILL_EXPERT,
+	                    SKILL_SCIENCE     	= SKILL_ADEPT,
+	                    SKILL_MEDICAL     	= SKILL_ADEPT,
+	                    SKILL_MECH          = HAS_PERK,
+	                    SKILL_ELECTRICAL    = SKILL_BASIC,
+	                    SKILL_CONSTRUCTION  = SKILL_BASIC)
 
 	max_skill = list(   SKILL_CONSTRUCTION = SKILL_MAX,
 	                    SKILL_ELECTRICAL   = SKILL_MAX,
@@ -205,8 +208,8 @@
 	                    SKILL_ENGINES      = SKILL_EXPERT,
 	                    SKILL_DEVICES      = SKILL_MAX,
 	                    SKILL_MEDICAL      = SKILL_EXPERT,
-	                    SKILL_ANATOMY      = SKILL_EXPERT)
-	skill_points = 20
+	                    SKILL_ANATOMY      = SKILL_MAX)
+	skill_points = 24
 
 	access = list(
 		access_robotics, access_engine, access_solgov_crew, access_radio_eng
