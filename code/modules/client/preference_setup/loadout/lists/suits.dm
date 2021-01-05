@@ -86,10 +86,7 @@
 	display_name = "blue trimmed labcoat"
 	path = /obj/item/clothing/suit/storage/toggle/labcoat/blue
 
-/datum/gear/suit/labcoat_corp
-	display_name = "labcoat, corporate colors"
-	path = /obj/item/clothing/suit/storage/toggle/labcoat/science
-	flags = GEAR_HAS_TYPE_SELECTION
+
 
 /datum/gear/suit/coat
 	display_name = "coat, colour select"
@@ -154,3 +151,8 @@
 	trenchcoats += /obj/item/clothing/suit/storage/det_trench/grey
 	trenchcoats += /obj/item/clothing/suit/leathercoat
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(trenchcoats)
+
+/datum/gear/suit/labcoat_robot
+  display_name = "labcoat, Fortschritt Systems"
+  path = /obj/item/clothing/suit/storage/toggle/labcoat/manaos/roboticist
+  cost = 1
