@@ -2485,6 +2485,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled/monotile,
 /area/security/locker)
 "aey" = (
@@ -2573,7 +2574,7 @@
 /obj/machinery/door/airlock/glass/medical{
 	autoset_access = 0;
 	name = "Medical Foyer";
-	req_access = list(list(access_medical,access_morgue,access_forensics_lockers))
+	req_access = list(list("ACCESS_MEDICAL","ACCESS_MORGUE","ACCESS_FORENSICS"))
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -5630,6 +5631,7 @@
 "alV" = (
 /obj/structure/closet/secure_closet/forensics,
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled/monotile,
 /area/security/detectives_office)
 "alW" = (
@@ -8761,6 +8763,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "aCv" = (
@@ -10284,6 +10287,7 @@
 	},
 /obj/structure/cable/green,
 /obj/item/gunbox,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "aJp" = (
@@ -16278,6 +16282,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "daN" = (
@@ -25250,6 +25255,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/item/weapon/gun/energy/gun/small/secure,
 /obj/structure/closet/secure_closet/security_torch/cadet,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "omb" = (
@@ -25760,6 +25766,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "oTb" = (
@@ -29170,6 +29177,7 @@
 /obj/structure/closet/secure_closet/security_torch,
 /obj/item/stack/medical/advanced/ointment,
 /obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled,
 /area/security/locker)
 "svb" = (

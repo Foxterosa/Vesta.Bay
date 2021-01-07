@@ -5916,6 +5916,7 @@
 	req_access = list("ACCESS_HEAD_OF_SECURITY")
 	},
 /obj/item/gunbox,
+/obj/item/clothing/accessory/armorplate/sneaky/tactical,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/crew_quarters/heads/office/cos)
 "mJ" = (
