@@ -88,7 +88,7 @@
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Deck Chief, the Corporate Liaison and the Executive Officer"
+	supervisors = "the Deck Chief and the Executive Officer"
 	economic_power = 7
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 25
@@ -97,7 +97,8 @@
 		"Shaft Miner",
 		"Salvage Technician")
 	min_skill = list(   SKILL_HAULING = SKILL_ADEPT,
-	                    SKILL_EVA     = SKILL_BASIC)
+	                    SKILL_EVA     = SKILL_BASIC,
+	                    SKILL_PILOT   = SKILL_BASIC)
 
 	max_skill = list(   SKILL_PILOT       = SKILL_MAX)
 

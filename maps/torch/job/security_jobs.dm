@@ -26,7 +26,10 @@
 
 	max_skill = list(   SKILL_COMBAT      = SKILL_MAX,
 	                    SKILL_WEAPONS     = SKILL_MAX,
-	                    SKILL_FORENSICS   = SKILL_MAX)
+	                    SKILL_FORENSICS   = SKILL_MAX,
+						SKILL_MEDICAL     = SKILL_ADEPT,
+						SKILL_ANATOMY     = SKILL_BASIC,
+						SKILL_CHEMISTRY   = SKILL_BASIC)
 	skill_points = 20
 
 	access = list(
