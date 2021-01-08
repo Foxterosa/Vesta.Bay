@@ -22,6 +22,7 @@
 	glasses["hipster glasses"] = /obj/item/clothing/glasses/prescription/hipster
 	glasses["monocle"] = /obj/item/clothing/glasses/monocle
 	glasses["scanning goggles"] = /obj/item/clothing/glasses/prescription/scanners
+	glasses["aesthetic goggles"] = /obj/item/clothing/glasses/sunglasses/manaos/aesthetic
 	gear_tweaks += new/datum/gear_tweak/path(glasses)
 
 /datum/gear/eyes/sciencegoggles
@@ -101,6 +102,11 @@
 /datum/gear/eyes/shades/
 	display_name = "sunglasses"
 	path = /obj/item/clothing/glasses/sunglasses
+	cost = 3
+
+/datum/gear/eyes/shades/sunglasses/pinky
+	display_name = "sunglasses, pinky"
+	path = /obj/item/clothing/glasses/sunglasses/manaos/cool
 	cost = 3
 
 /datum/gear/eyes/shades/sunglasses
