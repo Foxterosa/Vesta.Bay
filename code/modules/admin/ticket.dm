@@ -4,6 +4,7 @@ var/list/ticket_panels = list()
 /datum/ticket
 	var/datum/client_lite/owner
 	var/list/assigned_admins = list()
+	var/list/assigned_madmins = list()
 	var/status = TICKET_OPEN
 	var/list/msgs = list()
 	var/datum/client_lite/closed_by
