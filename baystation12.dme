@@ -3157,6 +3157,7 @@
 #include "code\unit_tests\~helpers.dm"
 #include "interface\interface.dm"
 #include "interface\skin.dmf"
+#include "manaos\code\modules\admin\verbs\mentorhelp.dm"
 #include "manaos\code\modules\clothing\suits\labcoat.dm"
 #include "manaos\code\modules\mob\living\simple_animal\event.dm"
 #include "manaos\code\modules\sprite_accessories\_accessory_hair.dm"
