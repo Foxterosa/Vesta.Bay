@@ -114,6 +114,20 @@
 	gender = FEMALE
 	flags = HAIR_TIEABLE
 
+/datum/sprite_accessory/hair/ponytail8
+	name = "Ponytail, Spiky"
+	icon_state = "hair_ponytail_spiky"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+	species_allowed = list(SPECIES_HUMAN)
+	
+/datum/sprite_accessory/hair/ponytail9
+	name = "Ponytail, Wisp"
+	icon_state = "hair_ponytail_wisp"
+	gender = FEMALE
+	flags = HAIR_TIEABLE
+	species_allowed = list(SPECIES_HUMAN)
+
 /datum/sprite_accessory/hair/half_pati
 	name = "Half-Pati"
 	icon_state = "hair_halfpati"
@@ -913,33 +927,6 @@
 	name = "Wheeler"
 	icon_state = "hair_wheeler"
 
-///**MANAOS CODE**//
-
-/*/datum/sprite_accessory/hair/cerberus
-	name = "Cerberus"
-	icon_state = "hair_cerberus"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/anomaly
-	name = "Anomaly"
-	icon_state = "hair_anomaly"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/longbedhead
-	name = "Long Bedhead"
-	icon_state = "hair_long_bedhead"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/wisp
-	name = "Wisp"
-	icon_state = "hair_wisp"
-	flags = HAIR_TIEABLE
-
-/datum/sprite_accessory/hair/himecutlongponytail
-	name = "Himecut Long Ponytail"
-	icon_state = "himecut_long_ponytail"
-	flags = HAIR_TIEABLE
-	*/
 /datum/sprite_accessory/hair/mullethawk
 	name = "Mullet-Hawk"
 	icon_state = "hair_mullethawk"

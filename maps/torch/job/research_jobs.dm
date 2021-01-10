@@ -61,11 +61,13 @@
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_BASIC,
 	                    SKILL_COMPUTER    = SKILL_BASIC,
 	                    SKILL_DEVICES     = SKILL_BASIC,
-	                    SKILL_SCIENCE     = SKILL_ADEPT)
+	                    SKILL_SCIENCE     = SKILL_ADEPT,
+						SKILL_CHEMISTRY   = SKILL_BASIC)
 
 	max_skill = list(   SKILL_ANATOMY     = SKILL_MAX,
 	                    SKILL_DEVICES     = SKILL_MAX,
-	                    SKILL_SCIENCE     = SKILL_MAX)
+	                    SKILL_SCIENCE     = SKILL_MAX,
+						SKILL_CHEMISTRY   = SKILL_MAX)
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/scientist
 	allowed_branches = list(
@@ -88,7 +90,7 @@
 	)
 
 	minimal_access = list()
-	skill_points = 24
+	skill_points = 22
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"
