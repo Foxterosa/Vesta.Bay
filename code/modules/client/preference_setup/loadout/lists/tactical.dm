@@ -38,6 +38,6 @@
 	slot = slot_w_uniform
 
 /datum/gear/tactical/tac_vest
-	display_name = "low-profile tactical vest"
+	display_name = "low profile tactical vest"
 	path = /obj/item/clothing/accessory/armorplate/sneaky/tactical
 	allowed_roles = list(/datum/job/captain, /datum/job/hop, /datum/job/hos, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/officer, /datum/job/detective, /datum/job/warden, /datum/job/qm)
