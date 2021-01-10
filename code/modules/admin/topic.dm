@@ -200,7 +200,7 @@
 
 		if(posttransformoutfit)
 			H.equipOutfit(posttransformoutfit)
-	
+
 	else if(href_list["call_shuttle"])
 
 		if(!check_rights(R_ADMIN))	return
@@ -1293,7 +1293,7 @@
 		show_player_panel(M)
 
 	else if(href_list["adminplayerobservejump"])
-		if(!check_rights(R_MOD|R_ADMIN))	return
+		if(!check_rights(R_MENTOR|R_MOD|R_ADMIN))	return
 
 		var/mob/M = locate(href_list["adminplayerobservejump"])
 		var/client/C = usr.client
