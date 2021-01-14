@@ -3,6 +3,7 @@
 #define MUTE_OOC       0x2
 #define MUTE_PRAY      0x4
 #define MUTE_ADMINHELP 0x8
+#define MUTE_MENTORHELP	0x9
 #define MUTE_DEADCHAT  0x10
 #define MUTE_AOOC      0x20
 #define MUTE_ALL       0xFFFF
@@ -19,6 +20,7 @@
 // Admin permissions.
 #define R_BUILDMODE     0x1
 #define R_ADMIN         0x2
+#define R_MENTOR		0x3
 #define R_BAN           0x4
 #define R_FUN           0x8
 #define R_SERVER        0x10

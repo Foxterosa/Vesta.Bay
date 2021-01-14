@@ -117,6 +117,15 @@
 	for(var/t in jobban_keylist)
 		to_chat(usr, "[t]")
 
+/client/proc/reload_mentors()
+	set name = "Reload Mentors"
+	set category = "Debug"
+
+	if(!check_rights(R_SERVER)) return
+
+	message_admins("[usr] manually reloaded Mentors")
+	world.load_mods()
+
 /client/proc/print_jobban_old_filter()
 	set name = "Search Jobban Log"
 	set desc = "This searches all the active jobban entries for the current round and outputs the results to standard output."
