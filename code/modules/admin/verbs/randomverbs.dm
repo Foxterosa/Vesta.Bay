@@ -42,7 +42,7 @@
 		log_and_message_admins("sent [key_name_admin(M)] to the prison station.")
 		SSstatistics.add_field_details("admin_verb","PRISON") //If you are copy-pasting this, ensure the 2nd parameter is unique to the new proc!
 
-/client/proc/cmd_check_new_players()	//Allows admins to determine who the newer players are.
+/client/proc/cmd_mentor_check_new_players()	//Allows admins to determine who the newer players are.
 	set category = "Admin"
 	set name = "Check new Players"
 	if(!holder)
@@ -57,6 +57,10 @@
 
 	var/missing_ages = 0
 	var/msg = ""
+
+	var/highlight_special_characters = 1
+	if(is_mentor(usr.client))
+		highlight_special_characters = 0
 
 	for(var/client/C in GLOB.clients)
 		if(C.player_age == "Requires database")
