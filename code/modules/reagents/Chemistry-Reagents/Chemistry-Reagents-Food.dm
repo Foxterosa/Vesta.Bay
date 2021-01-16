@@ -509,3 +509,19 @@
 	color = "#efede8"
 	taste_mult = 2
 	protein_amount = 0.7
+
+///Code Manaos///
+/datum/reagent/nutriment/yerba
+	name = "Yerba mate"
+	description = "Extrano... no crees que sea buena idea comer esto."
+	taste_description = "algo amargo"
+	reagent_state = SOLID
+	color = "#597a31"
+
+/datum/reagent/nutriment/yerba/touch_turf(var/turf/simulated/T)
+	if(!istype(T, /turf/space))
+		new /obj/effect/decal/cleanable/yerba(T)
+		if(T.wet > 1)
+			T.wet = min(T.wet, 1)
+		else
+			T.wet = 0

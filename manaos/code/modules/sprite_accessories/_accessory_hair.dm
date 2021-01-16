@@ -27,3 +27,8 @@
 	name = "Himecut Long Ponytail"
 	icon_state = "himecut_long_ponytail"
 	flags = HAIR_TIEABLE
+
+/datum/sprite_accessory/hair/manaos/nia
+	name = "Nia"
+	icon_state = "hair_nia"
+	flags = HAIR_TIEABLE

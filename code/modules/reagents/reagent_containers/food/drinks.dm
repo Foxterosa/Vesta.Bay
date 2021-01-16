@@ -343,5 +343,27 @@
 	possible_transfer_amounts = null
 	volume = 15
 	center_of_mass = "x=16;y=12"
+
 /obj/item/weapon/reagent_containers/food/drinks/mate/feed_sound(var/mob/user)
 	playsound(user.loc, 'sound/items/mate.ogg', rand(10, 50), 1)
+/obj/item/weapon/reagent_containers/food/drinks/decafcoffee
+	name = "cup of decaf coffee"
+	desc = "A tall plastic cup of hot decaffeinated coffee."
+	icon_state = "coffee"
+	item_state = "coffee"
+	center_of_mass = "x=16;y=14"
+	filling_states = "100"
+	base_name = "cup"
+	base_icon = "cup"
+
+/obj/item/weapon/reagent_containers/food/drinks/decafcoffee/Initialize()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/drink/decafcoffee, 30)
+
+/obj/item/weapon/reagent_containers/food/drinks/tea/decaf
+	name = "cup of decaf tea"
+	desc = "A tall plastic cup of hot decaffeinated tea."
+
+/obj/item/weapon/reagent_containers/food/drinks/tea/decaf/Initialize()
+	. = ..()
+	reagents.add_reagent(/datum/reagent/drink/tea/decaf, 30)

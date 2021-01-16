@@ -1313,6 +1313,69 @@
 	glass_name = "pumpkin spice syrup"
 	glass_desc = "Thick spiced pumpkin syrup used to flavor drinks."
 
+/datum/reagent/drink/decafcoffee
+	name = "Decaffeinated Coffee"
+	description = "Coffee but without the caffeine."
+	taste_description = "decaffeinated bitterness"
+	color = "#482000"
+
+	glass_name = "decaf coffee"
+	glass_desc = "Don't drop it, or you'll send scalding liquid and glass shards everywhere."
+
+/datum/reagent/drink/coffee/espresso
+	name = "Espresso"
+	description = "Extra strong coffee."
+	taste_description = "deluxe bitterness"
+	color = "#482000"
+
+	glass_name = "espresso"
+	glass_desc = "Don't drop it, or you'll send scalding liquid and glass shards everywhere."
+
+/datum/reagent/drink/coffee/americano
+	name = "Americano"
+	description = "Diluted Espresso."
+	taste_description = "dark bitterness"
+	color = "#482000"
+
+	glass_name = "americano"
+	glass_desc = "Pa pa l' americano"
+
+/datum/reagent/drink/coffee/yuenyeung
+	name = "Yuenyeung"
+	description = "Also known as Coffee with Tea."
+	taste_description = "refreshing and energising"
+	color = "#482000"
+
+	glass_name = "yeunyeung"
+	glass_desc = "Coffee with tea. Delicious."
+
+/datum/reagent/drink/coffee/iced/frappe
+	name = "Iced Frappe"
+	description = "A cool coffee chilled with ice."
+	taste_description = "refreshing brainfreeze"
+	color = "#482000"
+
+	glass_name = "iced frappe"
+	glass_desc = "A cool coffee with ice."
+
+/datum/reagent/ethanol/coffee/carajillo
+	name = "Carajillo"
+	description = "Just a regular coffee, hombre."
+	taste_description = "la voluntad de vivir"
+	color = "#482000"
+
+	glass_name = "iced frappe"
+	glass_desc = "A cool, milky coffee with ice... And Kahlua."
+
+/datum/reagent/drink/tea/decaf
+	name = "Decaffeinated Tea"
+	description = "Tea, already with limited caffeine, now with even less."
+	taste_description = "bitter tea"
+	color = "#101000"
+
+	glass_name = "decaf tea"
+	glass_desc = "Tasty black tea, it has antioxidants, it's good for you!"
+
 // Alien Drinks
 
 /datum/reagent/drink/alien/unathijuice
@@ -1355,3 +1418,96 @@
 	color = "#0e0900"
 	glass_name = "skrianhi tea"
 	glass_desc = "A blend of teas from Moghes, commonly drank by Unathi."
+
+///Code Manaos///
+
+/datum/reagent/drink/mate
+	name = "Mate"
+	description = "Una infusion hecha con hojas de yerba mate, bastante popular en ciertos lugares, por alguna razon."
+	taste_description = "algo amargo"
+	taste_mult = 1.3
+	color = "#789c94"
+	adj_dizzy = -5
+	adj_drowsy = -3
+	adj_temp = 25
+
+	glass_name = "mate"
+	glass_desc = "No lo sueltes o vas a desparramar por todos lados."
+
+/datum/reagent/drink/manaos_cola
+	name = "Manaos Cola"
+	description = "Un refrescante bravaje, sabor Cola."
+	taste_description = "cola"
+	reagent_state = LIQUID
+	color = "#100800"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos cola"
+	glass_desc = "Un refrescante vaso de Manaos Cola"
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/manaos_manzana
+	name = "Manaos de manzana"
+	description = "Un refrescante bravaje, con sabor a manzana."
+	taste_description = "cola y manzana"
+	reagent_state = LIQUID
+	color = "#600509"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos de naranja"
+	glass_desc = "Un refrescante vaso de Manaos con sabor a manzana."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/manaos_limalimon
+	name = "Manaos de lima limon"
+	description = "Un refrescante bravaje, con sabor a lima limon."
+	taste_description = "cola y lima limon"
+	reagent_state = LIQUID
+	color = "#5d822e"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos de lima limon"
+	glass_desc = "Un refrescante vaso de Manaos con sabor a lima limon."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/manaos_naranja
+	name = "Manaos de naranja"
+	description = "Un refrescante bravaje, con sabor a naranja."
+	taste_description = "cola y naranja"
+	reagent_state = LIQUID
+	color = "#ab7b0c"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos de naranja"
+	glass_desc = "Un refrescante vaso de Manaos con sabor a naranja."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/manaos_uva
+	name = "Manaos de uva"
+	description = "Un refrescante bravaje, con sabor a uva."
+	taste_description = "cola"
+	reagent_state = LIQUID
+	color = "#3b0059"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos de uva"
+	glass_desc = "Un refrescante vaso de Manaos con sabor a uva... creo."
+	glass_special = list(DRINK_FIZZ)
+
+/datum/reagent/drink/manaos_limon
+	name = "Manaos de limon"
+	description = "Un refrescante bravaje, con sabor a limon."
+	taste_description = "cola y limon"
+	reagent_state = LIQUID
+	color = "#bab741"
+	adj_drowsy = -3
+	adj_temp = -5
+
+	glass_name = "Manaos de limon"
+	glass_desc = "Un refrescante vaso de Manaos con sabor a limon."
+	glass_special = list(DRINK_FIZZ)
