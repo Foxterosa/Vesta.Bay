@@ -1300,6 +1300,11 @@
 /obj/machinery/door/airlock/centcom,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/abandoned)
+"eo" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meatstation/wormscientist,
+/turf/simulated/floor/tiled/white/airless,
+/area/outpost/abandoned)
 "ep" = (
 /obj/machinery/newscaster,
 /turf/simulated/wall/titanium,
@@ -2573,6 +2578,12 @@
 /obj/effect/shuttle_landmark/away/nav6,
 /turf/simulated/floor/asteroid,
 /area/mine/explored)
+"mJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meatstation/wormguard,
+/turf/simulated/floor/tiled/airless,
+/area/outpost/abandoned)
 "nb" = (
 /obj/effect/shuttle_landmark/away/nav5,
 /turf/simulated/floor/asteroid,
@@ -2581,21 +2592,9 @@
 /obj/effect/shuttle_landmark/away/nav4,
 /turf/simulated/floor/asteroid,
 /area/mine/explored)
-"ot" = (
-/mob/living/simple_animal/hostile/meatstation/wormguard,
-/turf/simulated/floor/plating,
-/area/outpost/abandoned)
-"oD" = (
-/mob/living/simple_animal/hostile/meatstation/meatball,
-/turf/simulated/floor/holofloor/tiled/dark,
-/area/outpost/abandoned)
 "pb" = (
 /obj/effect/gibspawner/human,
 /turf/simulated/floor/tiled/freezer,
-/area/outpost/abandoned)
-"pH" = (
-/mob/living/simple_animal/hostile/meatstation/meatball,
-/turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
 "qb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -2610,9 +2609,9 @@
 /obj/item/ammo_casing/pistol/magnum,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/abandoned)
-"qz" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/meatstation/meatworm,
+"qk" = (
+/obj/effect/floor_decal/corner/paleblue/diagonal,
+/mob/living/simple_animal/hostile/meatstation/wormscientist,
 /turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
 "rb" = (
@@ -2628,10 +2627,6 @@
 /mob/living/simple_animal/hostile/meatstation/wormguard,
 /turf/simulated/floor/tiled/dark,
 /area/outpost/abandoned)
-"rv" = (
-/mob/living/simple_animal/hostile/meatstation/wormguard,
-/turf/simulated/floor/asteroid,
-/area/mine/explored)
 "sb" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -2647,9 +2642,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/outpost/abandoned)
-"sF" = (
+"sZ" = (
 /mob/living/simple_animal/hostile/meatstation/meatworm,
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/white/airless,
 /area/outpost/abandoned)
 "tb" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -2665,10 +2660,6 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/diona,
-/area/outpost/abandoned)
-"uy" = (
-/mob/living/simple_animal/hostile/meatstation/wormguard,
-/turf/simulated/floor/tiled/airless,
 /area/outpost/abandoned)
 "vb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
@@ -2689,15 +2680,20 @@
 	},
 /turf/simulated/floor/carpet/blue,
 /area/outpost/abandoned)
-"xl" = (
+"wf" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/meatstation/meatball,
-/turf/simulated/floor/tiled/dark,
-/area/outpost/abandoned)
-"xR" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/meatstation/meatworm,
 /turf/simulated/floor/tiled/airless,
+/area/outpost/abandoned)
+"wZ" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/plating,
+/area/outpost/abandoned)
+"xs" = (
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/carpet/blue,
 /area/outpost/abandoned)
 "yb" = (
 /obj/item/weapon/storage/mirror{
@@ -2720,43 +2716,30 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
-"yo" = (
-/mob/living/simple_animal/hostile/meatstation/meatball,
-/turf/simulated/floor/carpet/blue,
-/area/outpost/abandoned)
-"Aj" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/meatstation/meatball,
+"Bv" = (
+/mob/living/simple_animal/hostile/meatstation/wormguard,
 /turf/simulated/floor/plating,
 /area/outpost/abandoned)
-"DJ" = (
-/mob/living/simple_animal/hostile/meatstation/meatmound,
-/turf/simulated/floor/diona,
+"EF" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 10
+	},
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
-"Ez" = (
-/mob/living/simple_animal/hostile/meatstation/meatworm,
-/turf/simulated/floor/tiled/white/airless,
-/area/outpost/abandoned)
-"Hj" = (
+"GH" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/meatstation/wormscientist,
-/turf/simulated/floor/tiled/white/airless,
+/mob/living/simple_animal/hostile/meatstation/meatworm,
+/turf/simulated/floor/tiled/white,
+/area/outpost/abandoned)
+"Hx" = (
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/holofloor/tiled/dark,
 /area/outpost/abandoned)
 "HD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white/airless,
-/area/outpost/abandoned)
-"HX" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 10
-	},
-/mob/living/simple_animal/hostile/meatstation/wormscientist,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"Ip" = (
-/mob/living/simple_animal/hostile/meatstation/wormguard,
-/turf/simulated/floor/holofloor/tiled/dark,
 /area/outpost/abandoned)
 "IX" = (
 /obj/machinery/door/firedoor,
@@ -2764,40 +2747,57 @@
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/outpost/abandoned)
-"JB" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/meatstation/meatball,
-/turf/simulated/floor/tiled/airless,
-/area/outpost/abandoned)
-"ND" = (
+"JZ" = (
 /mob/living/simple_animal/hostile/meatstation/meatball,
 /turf/simulated/floor/tiled,
 /area/outpost/abandoned)
-"Pf" = (
+"Lx" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meatstation/meatball,
+/turf/simulated/floor/tiled/dark,
+/area/outpost/abandoned)
+"LC" = (
+/mob/living/simple_animal/hostile/meatstation/wormguard,
+/turf/simulated/floor/holofloor/tiled/dark,
+/area/outpost/abandoned)
+"Nf" = (
 /mob/living/simple_animal/hostile/meatstation/wormguard,
 /turf/simulated/floor/tiled/airless,
 /area/outpost/abandoned)
-"Pw" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 10
-	},
+"PG" = (
+/mob/living/simple_animal/hostile/meatstation/meatworm,
+/turf/simulated/floor/tiled/dark,
+/area/outpost/abandoned)
+"QA" = (
+/mob/living/simple_animal/hostile/meatstation/wormguard,
+/turf/simulated/floor/asteroid,
+/area/mine/explored)
+"SQ" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meatstation/meatworm,
+/turf/simulated/floor/tiled/airless,
+/area/outpost/abandoned)
+"TP" = (
+/mob/living/simple_animal/hostile/meatstation/meatmound,
+/turf/simulated/floor/diona,
+/area/outpost/abandoned)
+"Ug" = (
 /mob/living/simple_animal/hostile/meatstation/meatball,
 /turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
-"Ta" = (
-/obj/effect/floor_decal/corner/paleblue/diagonal,
-/mob/living/simple_animal/hostile/meatstation/wormscientist,
-/turf/simulated/floor/tiled/white,
-/area/outpost/abandoned)
-"Te" = (
+"XK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/corner/purple{
 	dir = 10
 	},
 /mob/living/simple_animal/hostile/meatstation/meatworm,
+/turf/simulated/floor/tiled/white,
+/area/outpost/abandoned)
+"XN" = (
+/obj/effect/floor_decal/corner/purple{
+	dir = 10
+	},
+/mob/living/simple_animal/hostile/meatstation/wormscientist,
 /turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
 
@@ -12194,7 +12194,7 @@ af
 dE
 cW
 dD
-Hj
+eo
 fm
 dD
 cG
@@ -12801,7 +12801,7 @@ dG
 dW
 eu
 dW
-Ez
+sZ
 dD
 af
 aa
@@ -13618,7 +13618,7 @@ aH
 gu
 aH
 aS
-ot
+Bv
 aH
 hg
 fW
@@ -13817,7 +13817,7 @@ af
 aa
 af
 gu
-Aj
+wZ
 gu
 gu
 aH
@@ -14417,7 +14417,7 @@ dJ
 cW
 ez
 eW
-xR
+SQ
 fL
 af
 aa
@@ -15210,7 +15210,7 @@ aa
 af
 ax
 aK
-Ta
+qk
 az
 af
 bs
@@ -15223,7 +15223,7 @@ db
 af
 dN
 cW
-Pf
+mJ
 eZ
 fv
 fN
@@ -16017,7 +16017,7 @@ aa
 aa
 af
 aB
-DJ
+TP
 aA
 az
 bm
@@ -16033,7 +16033,7 @@ dQ
 ee
 eB
 fb
-JB
+wf
 fQ
 dH
 dH
@@ -16225,7 +16225,7 @@ az
 af
 bx
 bJ
-HX
+XN
 af
 af
 cG
@@ -16240,7 +16240,7 @@ cw
 cW
 cW
 gm
-uy
+Nf
 gE
 gL
 gO
@@ -17235,7 +17235,7 @@ af
 af
 bu
 bJ
-Te
+XK
 af
 af
 af
@@ -17432,7 +17432,7 @@ aj
 ao
 ao
 af
-Ip
+LC
 ao
 af
 bB
@@ -17647,7 +17647,7 @@ dh
 dw
 dm
 ab
-rv
+QA
 ab
 ab
 ab
@@ -17657,7 +17657,7 @@ ej
 ej
 ab
 ab
-rv
+QA
 ab
 ab
 ab
@@ -17837,7 +17837,7 @@ ao
 ao
 af
 bc
-oD
+Hx
 af
 bC
 bL
@@ -19052,7 +19052,7 @@ aI
 aI
 bo
 by
-pH
+Ug
 bU
 af
 aa
@@ -19452,7 +19452,7 @@ aa
 aa
 af
 aI
-ND
+JZ
 aI
 bo
 bx
@@ -19658,7 +19658,7 @@ aI
 bk
 af
 bx
-qz
+GH
 bV
 af
 aa
@@ -20472,13 +20472,13 @@ aA
 af
 cP
 do
-yo
+xs
 cQ
 af
 eL
 fh
 fh
-xl
+Lx
 af
 aa
 aa
@@ -21276,14 +21276,14 @@ bq
 bE
 bJ
 bJ
-Pw
+EF
 af
 cR
 dp
 dC
 dT
 dT
-sF
+PG
 fj
 fB
 fV
@@ -21473,7 +21473,7 @@ av
 aI
 aI
 aH
-ND
+JZ
 af
 bF
 aH

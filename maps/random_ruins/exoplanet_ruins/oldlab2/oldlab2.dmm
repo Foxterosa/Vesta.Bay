@@ -224,6 +224,10 @@
 /obj/item/weapon/bedsheet/brown,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living4)
+"bC" = (
+/mob/living/simple_animal/hostile/syndicate/melee,
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab2/medical)
 "bD" = (
 /turf/simulated/wall/titanium,
 /area/map_template/oldlab2/living2)
@@ -600,10 +604,6 @@
 /obj/structure/closet/crate/secure/biohazard/alt,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/server)
-"dF" = (
-/mob/living/simple_animal/hostile/rogue_drone,
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/oldlab2/Engineering)
 "dH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -1049,16 +1049,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/Airlock)
-"fw" = (
-/obj/effect/floor_decal/corner/blue/diagonal{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/syndicate/melee,
-/turf/simulated/floor/tiled/white,
-/area/map_template/oldlab2/mess)
 "fy" = (
 /obj/effect/floor_decal/corner/blue/diagonal{
 	dir = 4
@@ -1654,6 +1644,10 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/engineerhall)
+"jq" = (
+/mob/living/simple_animal/hostile/syndicate/ranged,
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab2/recandlockers)
 "jr" = (
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/recandlockers)
@@ -2314,6 +2308,16 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/office)
+"na" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/viscerator,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/oldlab2/hall)
 "nd" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor,
@@ -2347,13 +2351,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/office)
-"ni" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 1
-	},
-/mob/living/simple_animal/hostile/rogue_drone,
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/oldlab2/Airlock)
 "nj" = (
 /obj/structure/table/woodentable,
 /obj/machinery/alarm{
@@ -3201,6 +3198,16 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
+"rq" = (
+/obj/effect/floor_decal/corner/blue/diagonal{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/syndicate/melee,
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab2/mess)
 "rs" = (
 /obj/machinery/access_button{
 	active_power_usage = "oldlab_airlock";
@@ -3841,6 +3848,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab2/fixedsecurity)
+"tZ" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 1
+	},
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/oldlab2/Airlock)
 "ue" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4316,6 +4330,10 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/oldlab2/bathroom)
+"ww" = (
+/mob/living/simple_animal/hostile/creature,
+/turf/simulated/floor/reinforced,
+/area/map_template/oldlab2/test1)
 "wC" = (
 /obj/effect/wallframe_spawn/reinforced_phoron,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -4564,16 +4582,6 @@
 "xZ" = (
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living5)
-"yc" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/mob/living/simple_animal/hostile/viscerator,
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/oldlab2/hall)
 "yd" = (
 /obj/machinery/vending/assist{
 	dir = 8
@@ -5500,15 +5508,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/map_template/oldlab2/bathroom)
-"Da" = (
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/mob/living/simple_animal/hostile/rogue_drone,
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/oldlab2/server)
 "Dc" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/closet/emcloset,
@@ -5863,10 +5862,6 @@
 /obj/item/weapon/bedsheet/hop,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living6)
-"Es" = (
-/mob/living/simple_animal/hostile/creature,
-/turf/simulated/floor/reinforced,
-/area/map_template/oldlab2/test1)
 "Et" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -6059,6 +6054,15 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/medical)
+"Fc" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/oldlab2/server)
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -6880,6 +6884,11 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
+"Jt" = (
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/oldlab2/Airlock)
 "Jv" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -7439,6 +7448,10 @@
 /mob/living/exosuit/premade/powerloader/old,
 /turf/simulated/floor/tiled/techfloor,
 /area/map_template/oldlab2/Airlock)
+"MA" = (
+/mob/living/simple_animal/hostile/syndicate/melee,
+/turf/simulated/floor/carpet,
+/area/map_template/oldlab2/recandlockers)
 "MC" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/machinery/airlock_sensor{
@@ -8339,19 +8352,11 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/recandlockers)
-"Rg" = (
-/mob/living/simple_animal/hostile/syndicate/ranged,
-/turf/simulated/floor/tiled/white,
-/area/map_template/oldlab2/recandlockers)
 "Ro" = (
 /obj/machinery/vending/coffee,
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/wood/walnut,
 /area/map_template/oldlab2/recandlockers)
-"Rq" = (
-/mob/living/simple_animal/hostile/syndicate/melee,
-/turf/simulated/floor/tiled/white,
-/area/map_template/oldlab2/medical)
 "Rs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -8962,24 +8967,7 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/chem)
-"UR" = (
-/mob/living/simple_animal/hostile/syndicate/melee,
-/turf/simulated/floor/carpet,
-/area/map_template/oldlab2/recandlockers)
-"UV" = (
-/obj/structure/filingcabinet/filingcabinet,
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = -10
-	},
-/obj/structure/filingcabinet/filingcabinet{
-	pixel_x = 10
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/map_template/oldlab2/server)
-"UY" = (
+"UK" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
@@ -8994,6 +8982,19 @@
 /mob/living/simple_animal/hostile/syndicate/melee,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/lab)
+"UV" = (
+/obj/structure/filingcabinet/filingcabinet,
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = -10
+	},
+/obj/structure/filingcabinet/filingcabinet{
+	pixel_x = 10
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab2/server)
 "UZ" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 1
@@ -9237,21 +9238,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living5)
-"Wr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/mob/living/simple_animal/hostile/viscerator,
-/turf/simulated/floor/tiled/white,
-/area/map_template/oldlab2/office)
 "Wu" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
@@ -9336,6 +9322,10 @@
 /obj/item/weapon/bedsheet/hop,
 /turf/simulated/floor/tiled/dark,
 /area/map_template/oldlab2/living)
+"WK" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/tiled/techfloor,
+/area/map_template/oldlab2/Engineering)
 "WL" = (
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/structure/window/reinforced{
@@ -9651,6 +9641,21 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/mess)
+"Yh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/mob/living/simple_animal/hostile/viscerator,
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab2/office)
 "Yi" = (
 /turf/simulated/floor/carpet,
 /area/map_template/oldlab2/recandlockers)
@@ -9712,11 +9717,6 @@
 "Yz" = (
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab2/test1)
-"YB" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/mob/living/simple_animal/hostile/rogue_drone,
-/turf/simulated/floor/tiled/techfloor,
-/area/map_template/oldlab2/Airlock)
 "YD" = (
 /obj/machinery/artifact_harvester,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -10128,7 +10128,7 @@ Pv
 Mk
 Jj
 Qu
-Da
+Fc
 GL
 Qu
 GL
@@ -10303,7 +10303,7 @@ Ma
 dp
 BH
 BH
-Es
+ww
 GX
 yZ
 YN
@@ -10325,7 +10325,7 @@ bf
 JG
 nx
 Hi
-yc
+na
 Ud
 eT
 zC
@@ -10524,7 +10524,7 @@ KH
 XR
 Of
 gG
-UY
+UK
 Ox
 Of
 cY
@@ -10749,7 +10749,7 @@ Am
 OT
 vp
 Am
-Rq
+bC
 NQ
 Am
 PD
@@ -10840,7 +10840,7 @@ bm
 xD
 Hp
 yz
-Wr
+Yh
 XL
 XL
 nx
@@ -11114,7 +11114,7 @@ mG
 Rc
 Mg
 hD
-fw
+rq
 kj
 hD
 hD
@@ -11153,7 +11153,7 @@ yB
 Rs
 rm
 eb
-dF
+WK
 zu
 nx
 nK
@@ -11891,7 +11891,7 @@ pT
 BU
 gg
 oB
-Rg
+jq
 WW
 WW
 qu
@@ -12075,7 +12075,7 @@ Nz
 Nz
 iU
 Li
-YB
+Jt
 NG
 UZ
 Mh
@@ -12134,7 +12134,7 @@ vA
 gg
 hE
 Qg
-UR
+MA
 Yi
 gg
 Um
@@ -12233,7 +12233,7 @@ gb
 Li
 tE
 NG
-ni
+tZ
 dI
 gg
 Uo
