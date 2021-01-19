@@ -113,10 +113,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_bridge)
-"ao" = (
-/turf/space,
-/turf/space,
-/area/space)
 "ap" = (
 /turf/simulated/floor/tiled,
 /area/casino/casino_bridge)
@@ -150,6 +146,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/tiled,
 /area/casino/casino_bridge)
 "av" = (
@@ -487,6 +484,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_maintenance)
 "bw" = (
@@ -975,6 +973,7 @@
 /area/casino/casino_security)
 "cA" = (
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate,
 /turf/simulated/floor/tiled,
 /area/casino/casino_security)
 "cB" = (
@@ -2620,6 +2619,7 @@
 /area/casino/casino_mainfloor)
 "gY" = (
 /obj/random/cash,
+/mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/tiled,
 /area/casino/casino_mainfloor)
 "gZ" = (
@@ -3164,6 +3164,7 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
 "ix" = (
@@ -3861,6 +3862,7 @@
 /area/casino/casino_mainfloor)
 "kg" = (
 /obj/item/trash/cigbutt/professionals,
+/mob/living/simple_animal/hostile/pirate,
 /turf/simulated/floor/tiled,
 /area/casino/casino_mainfloor)
 "kh" = (
@@ -4845,6 +4847,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_bow)
 "mJ" = (
@@ -5124,6 +5127,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_mainfloor)
+"oR" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_hangar)
 "pb" = (
 /obj/item/ammo_casing/pistol/magnum/used,
 /turf/simulated/floor/tiled,
@@ -5246,6 +5259,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_crew_cantina)
+"ud" = (
+/obj/item/ammo_casing/rifle/used,
+/obj/item/ammo_casing/rifle/used,
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_bridge)
+"uI" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_crew_bunk)
 "vb" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/item/ammo_casing/rifle/used,
@@ -5332,6 +5356,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_crew_cantina)
+"yS" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_bow)
 "zb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
@@ -5390,6 +5418,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_crew_cantina)
+"BA" = (
+/obj/effect/floor_decal/industrial/warning,
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_crew_atmos)
 "Cb" = (
 /obj/item/ammo_casing/rifle/used,
 /obj/item/ammo_casing/rifle/used,
@@ -5537,10 +5570,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
-"Ib" = (
-/turf/simulated/wall/r_wall,
-/turf/simulated/wall/r_wall,
-/area/casino/casino_bow)
+"Hk" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_maintenance)
 "Ic" = (
 /obj/structure/flora/pottedplant,
 /obj/machinery/light{
@@ -5656,6 +5689,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/casino/casino_mainfloor)
+"MH" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/carpet,
+/area/casino/casino_mainfloor)
 "Nb" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -5704,6 +5741,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
+"Ov" = (
+/obj/effect/decal/cleanable/blood/drip,
+/mob/living/simple_animal/hostile/pirate/ranged,
+/turf/simulated/floor/wood,
+/area/casino/casino_private_vip)
 "Pb" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5754,6 +5796,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_bow)
+"Qd" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_kitchen)
 "Rb" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -5976,6 +6022,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_security)
+"Yt" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_storage)
 "Zb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -9691,7 +9741,7 @@ aa
 aa
 aa
 aa
-ao
+aa
 am
 at
 at
@@ -9901,7 +9951,7 @@ ap
 ap
 aE
 aJ
-qb
+ud
 aW
 am
 bk
@@ -9945,7 +9995,7 @@ ml
 mH
 mN
 kC
-Ib
+kC
 aa
 aa
 aa
@@ -10019,7 +10069,7 @@ cp
 eL
 bW
 bW
-bW
+Hk
 fP
 gh
 gA
@@ -10142,7 +10192,7 @@ ka
 jN
 jN
 jN
-le
+BA
 lA
 kC
 mm
@@ -10405,7 +10455,7 @@ aa
 aa
 aa
 aa
-ao
+aa
 am
 at
 at
@@ -10831,7 +10881,7 @@ df
 dx
 dP
 ek
-ek
+Yt
 eQ
 bZ
 bz
@@ -10928,7 +10978,7 @@ aB
 bC
 ca
 cv
-cN
+uI
 dg
 dx
 dQ
@@ -10960,7 +11010,7 @@ kI
 kR
 lh
 lH
-lG
+Ov
 lI
 kC
 mR
@@ -11047,7 +11097,7 @@ vc
 fQ
 ht
 hw
-hw
+Qd
 hV
 hw
 hw
@@ -12188,7 +12238,7 @@ mg
 mz
 kC
 mR
-mH
+yS
 mZ
 aa
 aa
@@ -12362,7 +12412,7 @@ dG
 Ub
 dp
 eG
-eX
+oR
 bq
 bq
 bq
@@ -12473,7 +12523,7 @@ ge
 ge
 ge
 hj
-ge
+MH
 hN
 ie
 is
@@ -12998,7 +13048,7 @@ ge
 ic
 ge
 ge
-ge
+MH
 hB
 ge
 mE

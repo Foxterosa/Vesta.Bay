@@ -1055,6 +1055,15 @@
 /obj/random/soap,
 /turf/simulated/floor/airless/ceiling,
 /area/smugglers/dorms)
+"xq" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/russian/ranged,
+/turf/simulated/floor/tiled,
+/area/smugglers/dorms)
+"XX" = (
+/mob/living/simple_animal/hostile/russian,
+/turf/simulated/floor,
+/area/smugglers/base)
 
 (1,1,1) = {"
 aa
@@ -4358,7 +4367,7 @@ bh
 br
 by
 bF
-bd
+XX
 bR
 cc
 cf
@@ -4566,7 +4575,7 @@ bd
 bT
 cc
 ch
-cm
+xq
 cu
 cc
 cy

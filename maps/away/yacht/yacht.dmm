@@ -75,7 +75,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/giant_spider/hunter,
+/mob/living/simple_animal/hostile/giant_spider/guard,
 /turf/simulated/floor/wood/walnut,
 /area/yacht/bridge)
 "ao" = (
@@ -1105,6 +1105,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/nurse,
 /turf/simulated/floor/plating,
 /area/yacht/engine)
 "do" = (
@@ -1484,6 +1485,11 @@
 "xB" = (
 /turf/simulated/wall/walnut,
 /area/yacht/living)
+"CE" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/spitter,
+/turf/simulated/floor/wood/yew,
+/area/yacht/living)
 "Hj" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
@@ -1498,6 +1504,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/wood/yew,
 /area/yacht/living)
+"WY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4;
+	icon_state = "map_universal"
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/nurse,
+/turf/simulated/floor/plating,
+/area/yacht/engine)
 
 (1,1,1) = {"
 aa
@@ -6632,7 +6647,7 @@ at
 ax
 aF
 aL
-aL
+CE
 aY
 aL
 aL
@@ -7051,7 +7066,7 @@ aB
 bN
 ca
 cn
-cn
+WY
 ub
 bN
 dg

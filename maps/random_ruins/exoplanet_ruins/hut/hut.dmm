@@ -72,6 +72,7 @@
 /area/template_noop)
 "q" = (
 /obj/item/weapon/pen/multi,
+/mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/tiled/dark,
 /area/template_noop)
 "r" = (

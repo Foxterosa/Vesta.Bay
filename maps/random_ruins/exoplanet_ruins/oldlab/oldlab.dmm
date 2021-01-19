@@ -1161,6 +1161,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/mob/living/simple_animal/hostile/giant_spider/spitter,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/map_template/oldlab/station/southairlock)
 "rS" = (
@@ -1277,6 +1278,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/giant_spider/guard,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab/station/chem)
 "uy" = (
@@ -1867,6 +1869,13 @@
 "Fj" = (
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab/station/chem)
+"Fq" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/giant_spider/nurse,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/map_template/oldlab/station/northairlockatmos)
 "Ft" = (
 /obj/structure/cable/yellow{
 	d2 = 8;
@@ -3017,6 +3026,17 @@
 /obj/machinery/smartfridge/chemistry,
 /turf/simulated/floor/tiled/white,
 /area/map_template/oldlab/station/chem)
+"YU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/structure/closet/hydrant{
+	pixel_x = -32
+	},
+/mob/living/simple_animal/hostile/giant_spider/guard,
+/turf/simulated/floor/tiled/white,
+/area/map_template/oldlab/station/hall)
 "YW" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 6
@@ -3504,7 +3524,7 @@ YZ
 QE
 TV
 ke
-DK
+Fq
 KS
 hP
 sj
@@ -3747,7 +3767,7 @@ As
 zR
 Cv
 Gv
-Sp
+YU
 ob
 Ln
 PL

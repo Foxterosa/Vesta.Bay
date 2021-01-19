@@ -245,6 +245,10 @@
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/mine/unexplored)
+"oq" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/simulated/floor/fixed/alium/airless,
+/area/mine/explored)
 "pz" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 10;
@@ -291,6 +295,10 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/mine/unexplored)
+"CC" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/simulated/floor/airless/stone,
+/area/mine/explored)
 "DJ" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
@@ -318,6 +326,10 @@
 	dir = 6
 	},
 /turf/simulated/floor/exoplanet/water/shallow,
+/area/mine/explored)
+"Hd" = (
+/mob/living/simple_animal/hostile/faithless,
+/turf/simulated/floor/asteroid,
 /area/mine/explored)
 "Le" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -355,6 +367,14 @@
 /obj/effect/floor_decal/spline/fancy/wood,
 /turf/simulated/floor/exoplanet/water/shallow,
 /area/mine/unexplored)
+"SW" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/mob/living/simple_animal/hostile/faithless,
+/turf/simulated/floor/exoplanet/water/shallow,
+/area/mine/explored)
 "SY" = (
 /obj/structure/fountain,
 /mob/living/simple_animal/hostile/retaliate/parrot/space,
@@ -14151,7 +14171,7 @@ ag
 ai
 ak
 al
-ak
+oq
 ak
 aj
 ah
@@ -17640,7 +17660,7 @@ aj
 aj
 aj
 aj
-aj
+CC
 aj
 aj
 aj
@@ -17884,7 +17904,7 @@ an
 an
 an
 ap
-aj
+CC
 aj
 aM
 aU
@@ -18093,7 +18113,7 @@ aF
 aP
 ax
 aM
-ak
+oq
 aj
 aj
 aj
@@ -19841,7 +19861,7 @@ am
 am
 am
 ao
-ae
+Hd
 aj
 aj
 aj
@@ -19862,7 +19882,7 @@ ap
 aM
 aj
 aj
-ae
+Hd
 aj
 aj
 aM
@@ -20458,7 +20478,7 @@ aj
 aj
 ae
 ae
-ae
+Hd
 ae
 ao
 an
@@ -21284,7 +21304,7 @@ ae
 aj
 aQ
 aj
-aF
+SW
 ax
 ao
 aF
@@ -22673,7 +22693,7 @@ ae
 aj
 aj
 aj
-ae
+Hd
 aj
 aj
 aj
@@ -22690,7 +22710,7 @@ ap
 aM
 aj
 aj
-ae
+Hd
 aj
 aj
 aM
@@ -24912,7 +24932,7 @@ aj
 aj
 aj
 aj
-aj
+CC
 aj
 aj
 aj

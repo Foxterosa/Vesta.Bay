@@ -238,10 +238,21 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/wood,
 /area/template_noop)
+"R" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/pirate/ranged,
+/turf/simulated/floor/tiled/monotile,
+/area/template_noop)
 "S" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood,
+/area/template_noop)
+"Y" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled/monotile,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -275,7 +286,7 @@ b
 b
 b
 b
-u
+R
 D
 b
 a
@@ -365,7 +376,7 @@ a
 a
 g
 l
-t
+Y
 y
 F
 g

@@ -29,6 +29,10 @@
 /obj/machinery/artifact,
 /turf/simulated/floor/reinforced,
 /area/template_noop)
+"D" = (
+/mob/living/simple_animal/hostile/creature,
+/turf/simulated/floor/carpet/red,
+/area/template_noop)
 "I" = (
 /obj/structure/bed/chair/wood,
 /turf/simulated/floor/carpet/red,
@@ -65,7 +69,7 @@ b
 c
 f
 f
-f
+D
 h
 i
 d
