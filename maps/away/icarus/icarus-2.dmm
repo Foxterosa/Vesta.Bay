@@ -1139,6 +1139,7 @@
 	icon_state = "tube1"
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/strippedhuman,
 /turf/simulated/floor/tiled,
 /area/icarus/vessel)
 "dC" = (
@@ -1916,6 +1917,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/icarus/open)
+"oV" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled,
+/area/icarus/open)
+"pr" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
 "Bd" = (
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
@@ -1925,10 +1935,31 @@
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
 /area/icarus/vessel)
+"FY" = (
+/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"Iz" = (
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/shuttle/white,
+/area/icarus/vessel)
+"IQ" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"Ni" = (
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/floor/shuttle/white,
+/area/icarus/vessel)
 "RQ" = (
 /obj/machinery/computer/modular{
 	dir = 4
 	},
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"Un" = (
+/mob/living/simple_animal/hostile/meat/horror,
 /turf/simulated/floor/tiled,
 /area/icarus/vessel)
 "Vb" = (
@@ -20580,7 +20611,7 @@ bt
 ap
 bU
 ak
-cw
+oV
 cL
 ac
 ac
@@ -21672,7 +21703,7 @@ ak
 ap
 er
 eC
-eC
+Iz
 eV
 eY
 fd
@@ -22391,7 +22422,7 @@ ak
 ak
 ak
 ak
-ak
+IQ
 ak
 bh
 ak
@@ -22585,7 +22616,7 @@ ae
 Fo
 Bd
 ak
-ar
+FY
 ai
 ak
 ak
@@ -23411,7 +23442,7 @@ cm
 cC
 ap
 aM
-ak
+IQ
 ak
 dz
 le
@@ -23810,7 +23841,7 @@ bf
 ap
 ak
 ak
-ak
+Un
 ak
 ak
 ap
@@ -24205,7 +24236,7 @@ as
 aw
 ak
 ak
-ak
+IQ
 ak
 ak
 ak
@@ -24702,7 +24733,7 @@ ag
 ap
 er
 eC
-eC
+Ni
 eE
 eY
 fd
@@ -24827,7 +24858,7 @@ ak
 ak
 ak
 ai
-ai
+pr
 ai
 cw
 cw
@@ -25018,7 +25049,7 @@ ao
 aI
 aI
 aX
-ak
+Un
 bo
 ak
 ai
@@ -26644,7 +26675,7 @@ cK
 ap
 dh
 dq
-ak
+IQ
 dz
 dJ
 ap

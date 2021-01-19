@@ -243,6 +243,17 @@
 /obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/wood,
 /area/template_noop)
+"T" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled/monotile,
+/area/template_noop)
+"Z" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/mob/living/simple_animal/hostile/pirate/ranged,
+/turf/simulated/floor/tiled/monotile,
+/area/template_noop)
 
 (1,1,1) = {"
 a
@@ -275,7 +286,7 @@ b
 b
 b
 b
-u
+Z
 D
 b
 a
@@ -365,7 +376,7 @@ a
 a
 g
 l
-t
+T
 y
 F
 g

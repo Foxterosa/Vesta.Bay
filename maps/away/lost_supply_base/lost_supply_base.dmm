@@ -2302,6 +2302,30 @@
 	icon_state = "steel_broken0"
 	},
 /area/lost_supply_base/supply)
+"si" = (
+/mob/living/simple_animal/hostile/syndicate/ranged/space,
+/turf/simulated/floor/tiled/airless,
+/area/lost_supply_base/office)
+"sx" = (
+/mob/living/simple_animal/hostile/syndicate/melee/space,
+/turf/simulated/floor/tiled/airless,
+/area/lost_supply_base/common)
+"sR" = (
+/mob/living/simple_animal/hostile/syndicate/melee/space,
+/turf/simulated/floor/airless,
+/area/lost_supply_base)
+"xB" = (
+/mob/living/simple_animal/hostile/syndicate/melee/space,
+/turf/simulated/floor/tiled/airless,
+/area/lost_supply_base/supply)
+"GL" = (
+/mob/living/simple_animal/hostile/syndicate/ranged,
+/turf/simulated/floor/shuttle/blue,
+/area/space)
+"HJ" = (
+/mob/living/simple_animal/hostile/syndicate/melee/space,
+/turf/simulated/floor/tiled/airless,
+/area/lost_supply_base)
 "Jd" = (
 /obj/machinery/computer/modular{
 	dir = 1
@@ -6739,7 +6763,7 @@ aa
 dH
 dV
 dS
-dS
+GL
 dS
 eM
 dH
@@ -7951,7 +7975,7 @@ aA
 aH
 bd
 bq
-aG
+sR
 aG
 bd
 aG
@@ -8167,7 +8191,7 @@ dj
 aG
 aG
 aG
-aG
+sR
 aG
 aG
 fb
@@ -9083,7 +9107,7 @@ bj
 dp
 bj
 dO
-bj
+HJ
 bj
 bj
 bj
@@ -9396,7 +9420,7 @@ eG
 cv
 fg
 fr
-fs
+xB
 fF
 fp
 fE
@@ -9480,7 +9504,7 @@ aa
 aC
 aT
 bl
-aV
+si
 bP
 ca
 ck
@@ -9590,7 +9614,7 @@ cz
 cL
 cV
 de
-cK
+sx
 dA
 dP
 dA

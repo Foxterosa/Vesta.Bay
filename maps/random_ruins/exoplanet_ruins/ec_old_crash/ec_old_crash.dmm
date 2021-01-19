@@ -2148,6 +2148,14 @@
 /obj/effect/landmark/clear,
 /turf/template_noop,
 /area/template_noop)
+"lM" = (
+/mob/living/simple_animal/hostile/meat/strippedhuman,
+/turf/simulated/floor/tiled/white/lowpressure,
+/area/map_template/ecship/science)
+"my" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor,
+/area/map_template/ecship/engineering)
 "qB" = (
 /obj/effect/landmark/clear,
 /turf/template_noop,
@@ -2157,6 +2165,10 @@
 /obj/effect/landmark/scorcher,
 /turf/template_noop,
 /area/template_noop)
+"HQ" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled/white/lowpressure,
+/area/map_template/ecship/cryo)
 "NM" = (
 /obj/effect/landmark/scorcher,
 /turf/template_noop,
@@ -2384,7 +2396,7 @@ aJ
 bI
 bs
 co
-bJ
+lM
 cE
 ao
 aB
@@ -2930,7 +2942,7 @@ cK
 cP
 cU
 cP
-cU
+my
 dq
 dD
 dd
@@ -3496,7 +3508,7 @@ as
 aH
 aV
 aV
-aV
+HQ
 bv
 as
 ab

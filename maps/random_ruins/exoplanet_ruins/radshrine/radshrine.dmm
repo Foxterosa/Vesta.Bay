@@ -33,6 +33,10 @@
 /obj/structure/bed/chair/wood,
 /turf/simulated/floor/carpet/red,
 /area/template_noop)
+"R" = (
+/mob/living/simple_animal/hostile/creature,
+/turf/simulated/floor/carpet/red,
+/area/template_noop)
 
 (1,1,1) = {"
 d
@@ -65,7 +69,7 @@ b
 c
 f
 f
-f
+R
 h
 i
 d

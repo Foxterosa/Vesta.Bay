@@ -42,6 +42,7 @@
 /area/icarus/vessel)
 "an" = (
 /obj/structure/bed/chair/comfy/captain,
+/mob/living/simple_animal/hostile/meat/abomination,
 /turf/simulated/floor/wood,
 /area/icarus/vessel)
 "ao" = (
@@ -402,6 +403,7 @@
 "bE" = (
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/strippedhuman,
 /turf/simulated/floor/tiled/white,
 /area/icarus/vessel)
 "bF" = (
@@ -1940,6 +1942,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/random/trash,
+/mob/living/simple_animal/hostile/meat/horrorminer,
 /turf/unsimulated/beach/sand,
 /area/icarus/vessel)
 "gk" = (
@@ -2669,6 +2672,10 @@
 /obj/effect/shuttle_landmark/nav_icarus/nav3,
 /turf/simulated/floor/exoplanet/grass,
 /area/icarus/open)
+"lm" = (
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
 "mb" = (
 /obj/structure/hygiene/sink{
 	dir = 1;
@@ -2705,6 +2712,56 @@
 /obj/random/soap,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/white,
+/area/icarus/vessel)
+"ph" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/wood,
+/area/icarus/vessel)
+"rk" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/plating,
+/area/icarus/vessel)
+"Bg" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"Ey" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"IM" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"JN" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"KT" = (
+/obj/structure/sign/warning/caution{
+	pixel_x = 0;
+	pixel_y = -30
+	},
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/plating,
+/area/icarus/vessel)
+"NS" = (
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"Ur" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"ZE" = (
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/plating,
 /area/icarus/vessel)
 
 (1,1,1) = {"
@@ -20548,7 +20605,7 @@ dg
 cV
 aX
 cV
-dg
+JN
 cV
 aX
 dP
@@ -20824,7 +20881,7 @@ cf
 aP
 as
 ah
-ah
+rk
 ah
 ah
 ah
@@ -21759,7 +21816,7 @@ cZ
 aP
 cZ
 aP
-aP
+NS
 dB
 aP
 dJ
@@ -22553,7 +22610,7 @@ aD
 aF
 as
 aP
-aP
+Ey
 aP
 bl
 aX
@@ -23153,7 +23210,7 @@ af
 ah
 aj
 ak
-aj
+ph
 ay
 aj
 aG
@@ -23168,13 +23225,13 @@ aX
 aX
 as
 aP
-aP
+NS
 aP
 aP
 aY
 aY
 aY
-aP
+lm
 aP
 as
 dU
@@ -24273,11 +24330,11 @@ gY
 gN
 ah
 hE
-hL
+KT
 as
 hE
 ah
-ah
+ZE
 ah
 ia
 id
@@ -24786,7 +24843,7 @@ as
 aP
 aP
 aP
-aY
+IM
 aY
 aY
 aY
@@ -24860,7 +24917,7 @@ cN
 cN
 et
 et
-ah
+rk
 ah
 as
 fP
@@ -24974,7 +25031,7 @@ aw
 aA
 aj
 ap
-aj
+ph
 as
 aT
 aP
@@ -25181,7 +25238,7 @@ as
 aP
 aP
 aP
-aP
+Ey
 aX
 bI
 bI
@@ -26602,7 +26659,7 @@ cb
 ca
 cz
 cL
-aY
+Bg
 aP
 cO
 dq
@@ -27094,7 +27151,7 @@ ah
 ah
 ah
 ah
-ah
+rk
 gO
 as
 as
@@ -27416,7 +27473,7 @@ dl
 dl
 aY
 aY
-aY
+Ur
 dl
 dl
 ed

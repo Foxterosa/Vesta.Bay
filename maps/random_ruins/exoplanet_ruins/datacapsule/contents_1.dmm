@@ -33,6 +33,10 @@
 /obj/structure/foamedmetal,
 /turf/template_noop,
 /area/template_noop)
+"o" = (
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/template_noop,
+/area/template_noop)
 
 (1,1,1) = {"
 c
@@ -43,7 +47,7 @@ a
 (2,1,1) = {"
 c
 b
-b
+o
 c
 "}
 (3,1,1) = {"
