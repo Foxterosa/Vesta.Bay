@@ -9,3 +9,9 @@
 	path = /obj/item/clothing/accessory/storage/drop_pouches/black
 	cost = 3
 //	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/officer, /datum/job/bodyguard)
+
+/datum/gear/storage/clown
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/storage/mime
+	allowed_branches = CIVILIAN_BRANCHES

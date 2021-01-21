@@ -69,3 +69,11 @@
 	display_name = "wallet, polychromic"
 	path = /obj/item/weapon/storage/wallet/poly
 	cost = 2
+
+/datum/gear/storage/clown
+	display_name = "mochila de payaso"
+	path = /obj/item/weapon/storage/backpack/clown
+
+/datum/gear/storage/mime
+	display_name = "tirantes de mimo"
+	path = /obj/item/clothing/accessory/suspenders

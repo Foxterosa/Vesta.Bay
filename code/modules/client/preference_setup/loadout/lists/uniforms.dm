@@ -203,3 +203,11 @@
 /datum/gear/uniform/frontier
 	display_name = "frontier clothes"
 	path = /obj/item/clothing/under/frontier
+
+/datum/gear/uniform/clown
+	display_name = "traje de payaso"
+	path = /obj/item/clothing/under/rank/clown
+
+/datum/gear/uniform/mime
+	display_name = "traje de mimo"
+	path = /obj/item/clothing/under/mime

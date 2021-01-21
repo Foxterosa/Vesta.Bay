@@ -2157,6 +2157,10 @@
 /obj/effect/landmark/scorcher,
 /turf/template_noop,
 /area/template_noop)
+"Nv" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor,
+/area/map_template/ecship/engineering)
 "NM" = (
 /obj/effect/landmark/scorcher,
 /turf/template_noop,
@@ -2166,6 +2170,10 @@
 /obj/item/device/scanner/xenobio,
 /turf/simulated/floor/tiled/white/lowpressure,
 /area/map_template/ecship/science)
+"TO" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled/white/lowpressure,
+/area/map_template/ecship/cryo)
 "UQ" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -2176,6 +2184,10 @@
 "Vy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/weapon/circular_saw,
+/turf/simulated/floor/tiled/white/lowpressure,
+/area/map_template/ecship/science)
+"XP" = (
+/mob/living/simple_animal/hostile/meat/strippedhuman,
 /turf/simulated/floor/tiled/white/lowpressure,
 /area/map_template/ecship/science)
 "YW" = (
@@ -2384,7 +2396,7 @@ aJ
 bI
 bs
 co
-bJ
+XP
 cE
 ao
 aB
@@ -2930,7 +2942,7 @@ cK
 cP
 cU
 cP
-cU
+Nv
 dq
 dD
 dd
@@ -3496,7 +3508,7 @@ as
 aH
 aV
 aV
-aV
+TO
 bv
 as
 ab

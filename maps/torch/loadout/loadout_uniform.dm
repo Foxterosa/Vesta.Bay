@@ -81,3 +81,9 @@
 
 /datum/gear/uniform/corp_exec_jacket
 	allowed_roles = list(/datum/job/liaison, /datum/job/bodyguard)
+
+/datum/gear/uniform/clown
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/uniform/mime
+	allowed_branches = CIVILIAN_BRANCHES

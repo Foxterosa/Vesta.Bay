@@ -75,7 +75,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/giant_spider/hunter,
+/mob/living/simple_animal/hostile/giant_spider/guard,
 /turf/simulated/floor/wood/walnut,
 /area/yacht/bridge)
 "ao" = (
@@ -1105,6 +1105,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/nurse,
 /turf/simulated/floor/plating,
 /area/yacht/engine)
 "do" = (
@@ -1351,6 +1352,15 @@
 	},
 /turf/simulated/floor/airless,
 /area/yacht/engine)
+"kY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4;
+	icon_state = "map_universal"
+	},
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/nurse,
+/turf/simulated/floor/plating,
+/area/yacht/engine)
 "lb" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1492,6 +1502,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/yacht/engine)
+"Sv" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/giant_spider/spitter,
+/turf/simulated/floor/wood/yew,
+/area/yacht/living)
 "Ty" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/effect/decal/cleanable/dirt,
@@ -6632,7 +6647,7 @@ at
 ax
 aF
 aL
-aL
+Sv
 aY
 aL
 aL
@@ -7051,7 +7066,7 @@ aB
 bN
 ca
 cn
-cn
+kY
 ub
 bN
 dg

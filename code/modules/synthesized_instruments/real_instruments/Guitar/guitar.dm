@@ -6,8 +6,7 @@
 	item_state = "guitar"
 	slot_flags = SLOT_BACK
 	sound_player = /datum/sound_player/synthesizer
-	path = /datum/instrument/guitar/elec_crisis
-
+	path = /datum/instrument/guitar/steel_crisis
 
 /obj/item/device/synthesized_instrument/guitar/multi
 	name = "Polyguitar"

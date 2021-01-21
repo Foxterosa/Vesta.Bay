@@ -113,10 +113,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_bridge)
-"ao" = (
-/turf/space,
-/turf/space,
-/area/space)
 "ap" = (
 /turf/simulated/floor/tiled,
 /area/casino/casino_bridge)
@@ -150,6 +146,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/tiled,
 /area/casino/casino_bridge)
 "av" = (
@@ -470,10 +467,6 @@
 "br" = (
 /turf/simulated/wall/r_wall,
 /area/casino/casino_hangar)
-"bs" = (
-/turf/space,
-/turf/simulated/wall/r_wall,
-/area/casino/casino_hangar)
 "bt" = (
 /obj/effect/shuttle_landmark/nav_casino/nav3,
 /turf/space,
@@ -487,6 +480,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_maintenance)
 "bw" = (
@@ -975,6 +969,7 @@
 /area/casino/casino_security)
 "cA" = (
 /obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate,
 /turf/simulated/floor/tiled,
 /area/casino/casino_security)
 "cB" = (
@@ -2119,7 +2114,7 @@
 	id_tag = "casino_main"
 	},
 /obj/machinery/door/firedoor,
-/turf/space,
+/turf/simulated/floor/plating,
 /area/casino/casino_mainfloor)
 "fB" = (
 /obj/machinery/light/small{
@@ -2620,6 +2615,7 @@
 /area/casino/casino_mainfloor)
 "gY" = (
 /obj/random/cash,
+/mob/living/simple_animal/hostile/pirate/ranged,
 /turf/simulated/floor/tiled,
 /area/casino/casino_mainfloor)
 "gZ" = (
@@ -3164,6 +3160,7 @@
 	icon_state = "4-8";
 	pixel_x = 0
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
 "ix" = (
@@ -3861,6 +3858,7 @@
 /area/casino/casino_mainfloor)
 "kg" = (
 /obj/item/trash/cigbutt/professionals,
+/mob/living/simple_animal/hostile/pirate,
 /turf/simulated/floor/tiled,
 /area/casino/casino_mainfloor)
 "kh" = (
@@ -4845,6 +4843,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/mob/living/simple_animal/hostile/rogue_drone,
 /turf/simulated/floor/plating,
 /area/casino/casino_bow)
 "mJ" = (
@@ -4928,10 +4927,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_bow)
-"mT" = (
-/turf/space,
-/turf/simulated/wall/r_wall,
-/area/casino/casino_bow)
 "mU" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -4969,7 +4964,7 @@
 	icon_state = "pdoor0";
 	id_tag = "Starboard wide window BD"
 	},
-/turf/space,
+/turf/simulated/floor/plating,
 /area/casino/casino_bow)
 "na" = (
 /obj/machinery/door/airlock/external{
@@ -5100,6 +5095,10 @@
 "ns" = (
 /turf/simulated/floor/reinforced/airless,
 /area/casino/casino_bow)
+"nZ" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/carpet,
+/area/casino/casino_mainfloor)
 "ob" = (
 /obj/structure/table/gamblingtable,
 /obj/structure/casino/roulette_chart,
@@ -5405,6 +5404,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_kitchen)
+"Cv" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_x = 0
+	},
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_hangar)
 "Db" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -5537,10 +5546,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
-"Ib" = (
-/turf/simulated/wall/r_wall,
-/turf/simulated/wall/r_wall,
-/area/casino/casino_bow)
 "Ic" = (
 /obj/structure/flora/pottedplant,
 /obj/machinery/light{
@@ -5549,6 +5554,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/casino/casino_mainfloor)
+"IW" = (
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_kitchen)
 "Jb" = (
 /obj/machinery/power/smes/buildable{
 	RCon_tag = "Solar - Starboard";
@@ -5676,6 +5685,11 @@
 	},
 /turf/simulated/floor/carpet,
 /area/casino/casino_mainfloor)
+"Nu" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_crew_bunk)
 "Ob" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5704,6 +5718,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_crew_atmos)
+"OS" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_bow)
 "Pb" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -5833,6 +5851,11 @@
 	},
 /turf/simulated/floor/airless,
 /area/casino/casino_bow)
+"TS" = (
+/obj/effect/decal/cleanable/blood/drip,
+/mob/living/simple_animal/hostile/pirate/ranged,
+/turf/simulated/floor/wood,
+/area/casino/casino_private_vip)
 "Ub" = (
 /obj/structure/window/basic{
 	dir = 4;
@@ -5900,6 +5923,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/white,
 /area/casino/casino_patron_bathroom)
+"Vs" = (
+/obj/effect/floor_decal/industrial/warning,
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_crew_atmos)
 "Wb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5951,6 +5979,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/casino/casino_maintenance)
+"Xd" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_maintenance)
 "Yb" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
@@ -5976,6 +6008,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/casino/casino_security)
+"YH" = (
+/mob/living/simple_animal/hostile/rogue_drone,
+/turf/simulated/floor/plating,
+/area/casino/casino_storage)
+"YO" = (
+/obj/item/ammo_casing/rifle/used,
+/obj/item/ammo_casing/rifle/used,
+/mob/living/simple_animal/hostile/pirate,
+/turf/simulated/floor/tiled,
+/area/casino/casino_bridge)
 "Zb" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -9691,7 +9733,7 @@ aa
 aa
 aa
 aa
-ao
+aa
 am
 at
 at
@@ -9739,7 +9781,7 @@ lz
 kC
 kC
 kC
-mT
+kC
 aa
 aa
 aa
@@ -9842,7 +9884,7 @@ kC
 mk
 mG
 kC
-mT
+kC
 aa
 aa
 aa
@@ -9901,7 +9943,7 @@ ap
 ap
 aE
 aJ
-qb
+YO
 aW
 am
 bk
@@ -9945,7 +9987,7 @@ ml
 mH
 mN
 kC
-Ib
+kC
 aa
 aa
 aa
@@ -10019,7 +10061,7 @@ cp
 eL
 bW
 bW
-bW
+Xd
 fP
 gh
 gA
@@ -10142,7 +10184,7 @@ ka
 jN
 jN
 jN
-le
+Vs
 lA
 kC
 mm
@@ -10405,7 +10447,7 @@ aa
 aa
 aa
 aa
-ao
+aa
 am
 at
 at
@@ -10831,7 +10873,7 @@ df
 dx
 dP
 ek
-ek
+YH
 eQ
 bZ
 bz
@@ -10928,7 +10970,7 @@ aB
 bC
 ca
 cv
-cN
+Nu
 dg
 dx
 dQ
@@ -10960,7 +11002,7 @@ kI
 kR
 lh
 lH
-lG
+TS
 lI
 kC
 mR
@@ -11047,7 +11089,7 @@ vc
 fQ
 ht
 hw
-hw
+IW
 hV
 hw
 hw
@@ -12188,7 +12230,7 @@ mg
 mz
 kC
 mR
-mH
+OS
 mZ
 aa
 aa
@@ -12362,7 +12404,7 @@ dG
 Ub
 dp
 eG
-eX
+Cv
 bq
 bq
 bq
@@ -12473,7 +12515,7 @@ ge
 ge
 ge
 hj
-ge
+nZ
 hN
 ie
 is
@@ -12964,7 +13006,7 @@ aa
 aa
 aa
 aa
-bs
+br
 br
 cn
 cF
@@ -12998,14 +13040,14 @@ ge
 ic
 ge
 ge
-ge
+nZ
 hB
 ge
 mE
 kC
 mH
 kC
-mT
+kC
 aa
 aa
 aa
@@ -13067,7 +13109,7 @@ aa
 aa
 aa
 aa
-bs
+br
 br
 cF
 cF
@@ -13106,7 +13148,7 @@ mj
 kl
 kC
 kC
-mT
+kC
 aa
 aa
 aa
@@ -13170,7 +13212,7 @@ aa
 aa
 aa
 aa
-bs
+br
 br
 cX
 cX
@@ -13207,7 +13249,7 @@ fA
 fA
 fA
 kC
-mT
+kC
 aa
 aa
 aa

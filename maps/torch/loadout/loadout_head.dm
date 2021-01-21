@@ -116,10 +116,19 @@
 
 /datum/gear/head/corporateberet
 	allowed_branches = CIVILIAN_BRANCHES
-	
+
 /datum/gear/head/nursehat
 	display_name = "Nurses Hat"
 	description = "A small white hat with a blue medical cross on the front, worn by nursing staff."
 	path = /obj/item/clothing/head/nursehat
 	allowed_roles = MEDICAL_ROLES
 	allowed_branches = list(/datum/mil_branch/fleet,/datum/mil_branch/marine_corps,/datum/mil_branch/civilian)
+
+/datum/gear/head/clown
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/head/mime
+	allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/head/mimeberet
+	allowed_branches = CIVILIAN_BRANCHES

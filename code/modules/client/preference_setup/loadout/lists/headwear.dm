@@ -183,3 +183,15 @@
 	options += /obj/item/clothing/head/beret/saare
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(options)
 */
+
+/datum/gear/head/clown
+	display_name = "mascara de payaso"
+	path = /obj/item/clothing/mask/gas/clown_hat
+
+/datum/gear/head/mime
+	display_name = "mascara de mimo"
+	path = /obj/item/clothing/mask/gas/mime
+
+/datum/gear/head/mimeberet
+	display_name = "boina de mimo"
+	path = /obj/item/clothing/head/beret

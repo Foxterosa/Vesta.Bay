@@ -1139,6 +1139,7 @@
 	icon_state = "tube1"
 	},
 /obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/strippedhuman,
 /turf/simulated/floor/tiled,
 /area/icarus/vessel)
 "dC" = (
@@ -1916,14 +1917,44 @@
 	},
 /turf/simulated/floor/tiled,
 /area/icarus/open)
+"mA" = (
+/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/meat/horrorsmall,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
+"qh" = (
+/mob/living/simple_animal/hostile/meat/abomination,
+/turf/simulated/floor/shuttle/white,
+/area/icarus/vessel)
+"uN" = (
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled,
+/area/icarus/open)
+"yp" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/simple_animal/hostile/meat/horrorminer,
+/turf/simulated/floor/tiled,
+/area/icarus/vessel)
 "Bd" = (
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
+/area/icarus/vessel)
+"Bm" = (
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/shuttle/white,
+/area/icarus/vessel)
+"EL" = (
+/mob/living/simple_animal/hostile/meat/horror,
+/turf/simulated/floor/tiled,
 /area/icarus/vessel)
 "Fo" = (
 /obj/item/weapon/ore/slag,
 /obj/structure/wall_frame,
 /turf/simulated/floor/plating,
+/area/icarus/vessel)
+"Qa" = (
+/mob/living/simple_animal/hostile/meat/humansecurity,
+/turf/simulated/floor/tiled,
 /area/icarus/vessel)
 "RQ" = (
 /obj/machinery/computer/modular{
@@ -20580,7 +20611,7 @@ bt
 ap
 bU
 ak
-cw
+uN
 cL
 ac
 ac
@@ -21672,7 +21703,7 @@ ak
 ap
 er
 eC
-eC
+Bm
 eV
 eY
 fd
@@ -22391,7 +22422,7 @@ ak
 ak
 ak
 ak
-ak
+Qa
 ak
 bh
 ak
@@ -22585,7 +22616,7 @@ ae
 Fo
 Bd
 ak
-ar
+mA
 ai
 ak
 ak
@@ -23411,7 +23442,7 @@ cm
 cC
 ap
 aM
-ak
+Qa
 ak
 dz
 le
@@ -23810,7 +23841,7 @@ bf
 ap
 ak
 ak
-ak
+EL
 ak
 ak
 ap
@@ -24205,7 +24236,7 @@ as
 aw
 ak
 ak
-ak
+Qa
 ak
 ak
 ak
@@ -24702,7 +24733,7 @@ ag
 ap
 er
 eC
-eC
+qh
 eE
 eY
 fd
@@ -24827,7 +24858,7 @@ ak
 ak
 ak
 ai
-ai
+yp
 ai
 cw
 cw
@@ -25018,7 +25049,7 @@ ao
 aI
 aI
 aX
-ak
+EL
 bo
 ak
 ai
@@ -26644,7 +26675,7 @@ cK
 ap
 dh
 dq
-ak
+Qa
 dz
 dJ
 ap

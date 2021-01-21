@@ -28,3 +28,6 @@
 
 /datum/gear/shoes/boots
 	//allowed_branches = CIVILIAN_BRANCHES
+
+/datum/gear/shoes/clown
+	allowed_branches = CIVILIAN_BRANCHES

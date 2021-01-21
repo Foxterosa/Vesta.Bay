@@ -4,7 +4,7 @@
 /area/template_noop)
 "c" = (
 /obj/machinery/door/unpowered/simple/uranium,
-/turf/template_noop,
+/turf/simulated/floor/tiled,
 /area/template_noop)
 "d" = (
 /turf/simulated/wall/uranium,
@@ -28,6 +28,10 @@
 "i" = (
 /obj/machinery/artifact,
 /turf/simulated/floor/reinforced,
+/area/template_noop)
+"G" = (
+/mob/living/simple_animal/hostile/creature,
+/turf/simulated/floor/carpet/red,
 /area/template_noop)
 "I" = (
 /obj/structure/bed/chair/wood,
@@ -65,7 +69,7 @@ b
 c
 f
 f
-f
+G
 h
 i
 d

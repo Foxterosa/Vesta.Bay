@@ -98,6 +98,14 @@ modular computers
 	path = /obj/item/modular_computer/laptop/preset/custom_loadout/advanced
 	cost = 6
 
+/datum/gear/utility/clown
+	display_name = "corneta"
+	path = /obj/item/weapon/bikehorn
+
+/datum/gear/utility/mimo
+	display_name = "crayon de mimo"
+	path = /obj/item/weapon/pen/crayon/mime
+
 /****************
 Pouches and kits
 ****************/
