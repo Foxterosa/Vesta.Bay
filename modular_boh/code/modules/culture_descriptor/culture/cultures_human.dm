@@ -1,11 +1,9 @@
 /decl/cultural_info/culture/human/confederate
 	name = CULTURE_HUMAN_CONFED
-	description = "You are from Komarov, in the Gilgamesh system.\
-	The capital world of the United Colonies of Gilgamesh, your people embody what it means to be a part of the UCG. \
-	Unfortunately, the years since the war have not been easy on Komarov and the long period of economic recovery has not made life easy. \
-	The people of Komarov are typically employed in the military, industrial, government or service sectors,\
-	with an emphasis being placed on military service. Komarovians today are generally poor, bitter and a somewhat broken people angry and \
-	resentful about their loss in the Aigaion Conflict. An upbringing on Komarov emphasises an odd mix of service to the state, liberalism and militarism."
+	description = "Eres de Komarov, del sistema Gilgamesh. Viviendo en el mundo capital de las Colonias Unidas de Gilgamesh, tu gente representa lo que significa ser parte de la misma. \
+	Desafortunadamente, el tiempo desde la guerra ha sido uno duro para Komarov, y el gran periodo de recuperacion economica no ha facilitado nada. La gente de Komarov tipicamente es empleada en los sectores \
+	militares, industriales, estatales o de servicio, con una gran estima por el servicio militar. Los komaravos de hoy son una gente generalmente pobre, amarga y en cierta manera rota, frustrada y rencorosa por su \
+	derrota en el conflicto de Gaia. Una crianza en Komarov resulta en una rara mezcla entre servicio al estado, liberalismo y militarismo."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 0.9
 	

@@ -1,9 +1,9 @@
 /decl/cultural_info/culture/unathi
 	name = CULTURE_UNATHI_DIAMOND_PEAKS
-	description = "Haughty and warlike, unathi from the Diamond peaks are wary of the outsiders, especially offworlders. \
-	Hierarchy and tradition are the core values of their clans. From their mountainous strongholds they exercise power \
-	over their lowland vassals, protecting them and Moghes in the name of the Grand Strategem - even though the clear \
-	division between feudal masters and their subject clans has been gradually wearing away."
+	description = "Famosamente brutos y aislacionistas, a los Unathi de los Montes Diamante no les agradan los forasteros de ninguna forma, sean otras especies o extranjeros Unathi. Solo \
+	les importa su clan. El conflicto y la victoria son sus valores vitales, y suelen ser encontrados en la fortaleza de su clan, peleando duelos de gladiadores para \
+	avanzar su creencia y valor en la Gran Estratagema, y ejerciendo poder sobre sus vasallos en zonas inferiores, protegiendo tanto a ellos como a Moghes en general. A pesar de esto, las divisiones entre los maestros \
+	feudales y sus clanes avasallados se ha estado gradualmente disolviendo."
 	economic_power = 0.8
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
@@ -15,9 +15,9 @@
 
 /decl/cultural_info/culture/unathi_polar
 	name = CULTURE_UNATHI_POLAR
-	description = "These unathi hail from the dense jungles of Moghes' poles. Generally, they're the most welcoming of outsiders and the most \
-	common to find off-world. Most of these unathi are followers of the Precursors or the Fruitful Lights, with technology and progress being \
-	an important concept in the polar city-states."
+	description = "Estos Unathi vienen de las densas junglas en los polos de Moghes. Generalmente son los mas hospitalarios con extranjeros, \
+	y los mas frecuentemente encontrados fuera de Moghes. La mayoria de los Unathi polares son seguidores de los Precursores o de las Luces Fructuosas, \
+	la importancia de la tecnologia y progreso siendo un concepto central en las ciudades-estado polares."
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_YEOSA,
@@ -28,9 +28,9 @@
 
 /decl/cultural_info/culture/unathi_desert
 	name = CULTURE_UNATHI_DESERT
-	description = "These are the survivalists of the unathi. They hunker down in long-forgotten bunkers of the precursors and survive on \
-	whatever creatures that still live in the deserts. They're incredibly self-sufficient despite their living conditions. They have a heavy focus on \
-	the Precursors and the Grand Stratagem in their clan faiths, and are often considered the most spiritual."
+	description = "Estos son los supervivientes extremos entre los Unathi. Se atrincheran en antiguos y olvidados bunkeres de los Precursores y sobreviven \
+	a base de cualquier criatura que todavia more los desiertos. Pese a sus circumstancias, son increiblemente autosuficientes. Las creencias de sus clanes \
+	se concentran mucho en los Precursores y en la Gran Estratagemas, y suelen ser considerados los Unathi mas espirituales."
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_YEOSA,
@@ -41,8 +41,8 @@
 
 /decl/cultural_info/culture/unathi_savannah
 	name = CULTURE_UNATHI_SAVANNAH
-	description = "These unathi belong to the numerous rural and nomadic clans spread across the great plains of either hemisphere of Moghes. \
-	Excellent farmers, riders and herdsmen, most savannah unathi follow the Hand of the Vines."
+	description = "Estos Unathi viven en clanes nomadas, viajando a traves de las Grandes Planicies de Moghes, o de similar forma, a traves de las estrellas del universo, \
+	deseando lograr convertir a Moghes en un nuevo paraiso. La mayoria de los Unathi nomadas se consideran parte de las Manos de la Madre Verde."
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_YEOSA,
@@ -53,9 +53,9 @@
 	
 /decl/cultural_info/culture/unathi_salt_swamp
 	name = CULTURE_UNATHI_SALT_SWAMP
-	description = "Combining assorted elements of various cultures with an adventurous spirit and resolve, salt swamp unathi are noted for their friendliness and openness to outsiders, \
-	along with their knack for rituals that often get mistaken as \"parties\" by humans. The Fruitful Lights and Hand of the Vines both have numerous \
-	followers with these unathi."
+	description = "A menudo considerados los Unathi menos 'tradicionales', los Unathi del Pantano Salado son conocidos por su amistad e inclusion a forasteros, \
+	sumado a su gusto por rituales que suelen ser confundidos por 'fiestas' por humanos. Las Luces Fructuosas y las Manos de la Madre Verde tienen numerosos seguidores \
+	en este grupo particular."
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_YEOSA,
@@ -66,10 +66,10 @@
 
 /decl/cultural_info/culture/unathi_space
 	name = CULTURE_UNATHI_SPACE
-	description = "With increased trade with humanity and Sol, unathi clans have gradually reached towards the stars. Space-faring clans owe \
-	much of their origins to the nomadic savannah clans, though it still varies greatly. Many of them still retain their traditions from their \
-	original homes. Now considering themselves as pioneers, they are varied in their ways. Many function as merchants and trade haulers, offering services \
-	to the Moghes Hegemony and Sol businesses alike."
+	description = "Al progresar mediante intercambio con Sol y la humanidad en general, los clanes unathi se han gradualmente extendido hacia las estrellas. \
+	Los varios clanes espaciales generalmente tienen origen en los Unathi nomadas de las planicies, aunque esto suele variar. Muchos todavia mantienen las tradiciones \
+	de sus hogares natales. Ahora, se consideran pioneros, y ocupan una variedad de roles. Varios operan como mercaderes y transportistas comerciales, ofreciendo servicios \
+	tanto a Moghes como a empresas de Sol."
 	secondary_langs = list(
 		LANGUAGE_UNATHI_SINTA,
 		LANGUAGE_UNATHI_YEOSA,
@@ -78,13 +78,13 @@
 		LANGUAGE_SPACER
 	)
 
-/decl/cultural_info/culture/unathi_tersten
+/decl/cultural_info/culture/unathi_tersten //UNATHI COWBOYS, YEEEEEEEEEEEAH
 	name = CULTURE_UNATHI_TERSTEN
-	description = "The sinta clans that have made their home on Tersten are something of an oddity. Many settled on Tersten in the wake of the \
-	Tersten Golden Age. While still independent, they maintain a close relationship with the Tersten people. These clans have formed their own \
-	hegemony, with their primary focus being unity of the clans as well as maintaining relations with the native Tersten people. Still traditional to their \
-	beliefs, sinta on Tersten have integrated well with the planet's inhabitants. Tersten clans are seen by some Moghes clans as traitors - clans that have \
-	abandoned their homeland. Regardless, the clans on Tersten enjoy a peace that could not be achieved on the rough surface of Moghes."
+	description = "Los clanes Sinta que hicieron de Tersten su hogar son muy particulares. Varios se asentaron en Tersten en el principio \
+	de su Edad Dorada planetaria. Si bien son independientes, tienen lazos cercanos con la gente de Tersten. Estos clanes han formado su propia hegemonia, \
+	siendo sus objetivos principales la unidad de sus clanes y las buenas relaciones con los nativos de Tersten. Fieles a sus principios, \
+	los Sinta de Tersten se han integrado bien con los habitantes del planeta. Los clanes de Tersten son considerados por algunos clanes de Moghes como traidores - clanes que \
+	abandonaron su hogar. Sin preocuparse por esto, los clanes de Tersten disfrutan una paz que no seria posible en la dura superficie de Moghes."
 	language = LANGUAGE_UNATHI_SINTA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_YEOSA,
@@ -95,15 +95,15 @@
 
 /decl/cultural_info/culture/unathi_yeosa
 	name = CULTURE_UNATHI_YEOSA_LITTORAL
-	description = "On Moghes, the boundaries between regions, cultures, and even races are rarely set in stone the yeosa realm is by no means an exception. \
-	Spread wide along the coast of the World Sea, islander communities coexist (and sometimes cooperate) with their sinta brethren. This is especially \
-	true not only for those living in the deltas and estuaries of the Salt Swamps the birthplace of yeosa'unathi race but also for those settling in proximity \
-	of major ports belonging to the Diamond Peaks (Gazalor) and other ethnic groups. Those coastal yeosa are generally known to the outsiders as yeosa littoral, or simply littorals - a name rarely used by the islanders themselves. \
-	While the name implies that yeosa in question are lagoon-bound, this may often not be the case; ties with the land-dwellers, or lack thereof, have \
-	also been used as a criterion, although less so in recent years. What is true, however, is that the littoral clans have adopted some sinta ways of life \
-	through their constant mingling with the outsiders, integrating not only some elements of continental cults and festivities, but also the newer political ideas, such as \
-	clan leagues, city-states, and the Krukzuz. Technology works the same way - just as the well-preserved units of precursor crafts found their way to \
-	the poles and the peaks, off-world and polar-produced flechette pistols and wetsuits became more commonplace in littoral areas as well."
+	description = "En Moghes, las divisiones entre regiones, culturas, e incluso razas rara vez son rigidas y permanentes, y la esfera Yeosa no es una excepcion. \
+	Distribuidos anchamente a traves de las costas del Mar Mundial, existen comunidades acuaticas que coexisten (y a veces hasta cooperan) con sus pares Sinta. Esto aplica especialmente \
+	a los que viven en los deltas y estuarios de los Pantanos Salados (el lugar de nacimiento de la raza Yeosa'Unathi), a los que se se asentan en \
+	puertos mayores pertenecientes a los Montes Diamante (Gazalor), y a otros grupos etnicos. Estos Yeosa costeros generalemente se conocen como 'Yeosa litorales' o simplemente 'litorales' - una denominacion rara vez usada por ellos mismos. \
+	A pesar de que el nombre implica que estos Yeosa son exclusivamente de cuerpos de agua, este puede no ser el caso; tambien se usan los lazos con habitantes continentales como criterio para este apodo, \
+	aunque tal vez menos en tiempos recientes. Lo que si es considerado un hecho, de todos modos, es que los clanes litorales han adoptado algunas formas de vida Sinta a traves de su constante fraternizacion \
+	con extranjeros, integrando no solo algunos elementos de festividades y creencias continentales, si no que tambien sus nacientes ideas politicas, como \
+	ligas de clanes, ciudades-estado, y los Krukzuz. Su tecnologia paso por lo mismo - de igual forma a que llegaron naves precursoras bien preservadas a los polos y montes, \
+	llegaron pistolas de dardos y trajes acuaticos polares y extraplanetarios a los litorales."
 	economic_power = 0.8
 	language = LANGUAGE_UNATHI_YEOSA
 	secondary_langs = list(
@@ -115,11 +115,11 @@
 
 /decl/cultural_info/culture/unathi_yeosa_abyss
 	name = CULTURE_UNATHI_YEOSA_ABYSS
-	description = "While the majority of yeosa gravitate toward the coastal areas, some have dwelled deeper into the ocean, following the migration \
-	of sea animals, seeking shelter, or driven by the spirit of adventure. Those who have settled in the volcanic islands and archipelagos of deep sea became \
-	known as the Abyssals - an ethnic group connected to yeosa proper, yet very different from any race found on land. To their few guests, the Abyssals may appear uncannily secretive, if not strange. Abyssal yeosa keep track of time intently, only travelling through the \
-	waters during certain hours, and sunbathing during others. They follow Aga-Eakhe to the letter, and tend to believe in many a superstition, performing \
-	augury and seeking signs before every major enterprise."
+	description = "Si bien la mayoria de los Yeosa gravitan hacia zonas costeras, algunos moran mas profundo en el oceano, habiendo llegado a ese punto ya sea siguiendo la migracion de \
+	animales marinos, buscando refugio, o simplemente motivados por su espiritu aventurero. Los que se han asentado en las islas volcanicas y archipielagos de mares profundos \
+	se ganaron el nombre de 'Abisales' - un grupo etnico conectado a los Yeosa, pero radicalmente distintos. Pueden parecer misteriosamente secretivos o simplemente raros a sus pocos huespedes. Los abisales son muy cuidadosos con \
+	el tiempo, solo viajando a traves de ciertas aguas durante horas particulares, y tomando sol durante otras. Siguen Aga-Eakhe al pie de la letra, y suelen ser supersticiosos, consultando \
+	oraculos y buscando augurios antes de cualquier iniciativa mayor."
 	language = LANGUAGE_UNATHI_YEOSA
 	secondary_langs = list(
 		LANGUAGE_UNATHI_SINTA,
