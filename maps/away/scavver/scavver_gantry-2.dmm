@@ -261,6 +261,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/machinery/vending/tool,
 /turf/simulated/floor/tiled/dark,
 /area/scavver/hab)
 "co" = (
@@ -3906,11 +3907,11 @@
 /turf/simulated/wall/ocp_wall,
 /area/scavver/yachtup)
 "FA" = (
-/obj/machinery/vending/tool,
 /obj/effect/floor_decal/corner/lightgrey/mono,
 /obj/item/device/radio/intercom/map_preset/scavver{
 	pixel_y = 23
 	},
+/obj/machinery/suit_cycler/crashed,
 /turf/simulated/floor/tiled/monotile,
 /area/scavver/hab)
 "FC" = (
