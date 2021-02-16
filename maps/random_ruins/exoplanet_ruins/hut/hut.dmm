@@ -76,14 +76,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/template_noop)
 "r" = (
-/mob/living/bot/medbot,
-/turf/simulated/floor/tiled/dark,
-/area/template_noop)
-"t" = (
 /obj/structure/bed,
 /obj/item/weapon/bedsheet/rainbow,
 /obj/random/drinkbottle,
 /obj/random/trash,
+/mob/living/bot/medbot,
 /turf/simulated/floor/carpet,
 /area/template_noop)
 "u" = (
@@ -137,7 +134,7 @@ b
 b
 j
 c
-r
+c
 k
 m
 b
@@ -157,7 +154,7 @@ d
 h
 c
 g
-t
+r
 b
 "}
 (7,1,1) = {"
