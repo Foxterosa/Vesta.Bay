@@ -23,9 +23,6 @@
 /datum/fabricator_recipe/tool/prybar
 	path = /obj/item/weapon/crowbar/prybar
 
-/datum/fabricator_recipe/tool/rescuetool
-	path = /obj/item/weapon/crowbar/emergency_forcing_tool
-
 /datum/fabricator_recipe/tool/int_wirer
 	path = /obj/item/device/integrated_electronics/wirer
 
@@ -40,6 +37,9 @@
 
 /datum/fabricator_recipe/tool/t_scanner
 	path = /obj/item/device/t_scanner
+
+/datum/fabricator_recipe/tool/g_scanner
+	path = /obj/item/device/scanner/gas
 
 /datum/fabricator_recipe/tool/weldertool
 	path = /obj/item/weapon/weldingtool
@@ -58,6 +58,9 @@
 
 /datum/fabricator_recipe/tool/minihoe
 	path = /obj/item/weapon/material/minihoe
+
+/datum/fabricator_recipe/tool/floor_painter
+	path = /obj/item/device/paint_sprayer
 
 /datum/fabricator_recipe/tool/welder_industrial
 	path = /obj/item/weapon/weldingtool/largetank

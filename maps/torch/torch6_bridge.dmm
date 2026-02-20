@@ -1368,11 +1368,13 @@
 "cz" = (
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner/blue/mono,
-/obj/structure/noticeboard{
-	pixel_y = 30
-	},
 /obj/item/weapon/storage/toolbox/emergency,
 /obj/item/device/flashlight,
+/obj/machinery/turretid{
+	id_tag = "BridgeTurrets";
+	name = "Bridge Turret Control";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge)
 "cA" = (
@@ -3563,6 +3565,7 @@
 	pixel_y = 0;
 	req_access = list("ACCESS_MAINT")
 	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "gp" = (
@@ -3842,6 +3845,11 @@
 /obj/effect/paint/hull,
 /turf/simulated/wall/titanium,
 /area/aquila/cockpit)
+"hf" = (
+/obj/structure/lattice,
+/obj/machinery/light/navigation/delay2,
+/turf/space,
+/area/space)
 "hi" = (
 /obj/structure/bed/chair/padded/blue,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3997,9 +4005,9 @@
 	c_tag = "Bridge Exterior";
 	dir = 8
 	},
-/obj/structure/lattice,
-/turf/space,
-/area/space)
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/bridge)
 "hI" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden{
 	dir = 1;
@@ -4556,6 +4564,14 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/hallway/primary/bridge/fore)
+"iW" = (
+/obj/structure/catwalk,
+/obj/machinery/porta_turret{
+	id_tag = "BridgeTurrets"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/forestarboard)
 "iX" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5177,10 +5193,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/turret_protected/ai_outer_chamber)
 "kE" = (
-/obj/structure/lattice,
-/obj/machinery/light/navigation/delay2,
-/turf/space,
-/area/space)
+/obj/structure/catwalk,
+/obj/machinery/porta_turret{
+	id_tag = "BridgeTurrets"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/bridge)
 "kH" = (
 /turf/simulated/wall/prepainted,
 /area/maintenance/auxsolarbridge)
@@ -6333,7 +6352,7 @@
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_inner";
 	locked = 1;
-	name = "Byahkee External Access";
+	name = "Byakhee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/structure/cable{
@@ -6742,6 +6761,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
+"ou" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/bridge)
 "ox" = (
 /obj/structure/cable/green,
 /obj/structure/cable/green{
@@ -7604,8 +7627,13 @@
 	c_tag = "Bridge Exterior - Port";
 	dir = 1
 	},
-/turf/space,
-/area/space)
+/obj/structure/catwalk,
+/obj/machinery/porta_turret{
+	id_tag = "BridgeTurrets"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/plating,
+/area/maintenance/bridge/foreport)
 "qB" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -8968,6 +8996,10 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/aux_eva)
+"tN" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
 "tO" = (
 /obj/structure/shuttle/engine/heater,
 /obj/structure/window/reinforced{
@@ -9846,6 +9878,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
+/obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/safe_room/bridge)
 "vT" = (
@@ -10372,6 +10405,13 @@
 "wS" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/maintenance/bridge/foreport)
+"wT" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/porta_turret{
+	id_tag = "BDAirlock"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/hallway/primary/bridge/aft)
 "wX" = (
 /obj/structure/cable/cyan{
 	d1 = 1;
@@ -11283,6 +11323,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/space)
 "zC" = (
@@ -11296,9 +11337,8 @@
 /obj/random/coin,
 /obj/random/firstaid,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/sign/warning/nosmoking_1{
-	pixel_x = 2;
-	pixel_y = 24
+/obj/structure/noticeboard{
+	pixel_y = 30
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/bridge/storage)
@@ -14903,6 +14943,10 @@
 /obj/structure/cable/cyan{
 	icon_state = "0-4"
 	},
+/obj/structure/table/standard{
+	name = "plastic table frame"
+	},
+/obj/machinery/photocopier/faxmachine/torch,
 /turf/simulated/floor/tiled/dark,
 /area/aquila/mess)
 "JX" = (
@@ -15219,7 +15263,7 @@
 	icon_state = "closed";
 	id_tag = "aquila_shuttle_outer";
 	locked = 1;
-	name = "Byahkee External Access";
+	name = "Byakhee External Access";
 	req_access = list("ACCESS_TORCH_CREW")
 	},
 /obj/machinery/shield_diffuser,
@@ -15448,8 +15492,7 @@
 /area/bridge/disciplinary_board_room)
 "Mc" = (
 /obj/machinery/door/airlock/glass/command{
-	id_tag = null;
-	name = "Aquila Dock";
+	name = "Byakhee Dock";
 	secured_wires = 1
 	},
 /obj/machinery/door/firedoor,
@@ -16230,6 +16273,17 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/bridge/fore)
+"Ot" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 5
+	},
+/obj/machinery/turretid{
+	id_tag = "BDAirlock";
+	name = "Airlock Turret Control";
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/hallway/primary/bridge/aft)
 "Ow" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -26882,21 +26936,21 @@ aa
 aa
 aa
 pe
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
-aa
+ae
+ae
+ae
+ae
+ae
+hf
+ae
+ae
+ae
+hf
+ae
+ae
+ae
+ae
+ae
 pe
 aa
 aa
@@ -27082,7 +27136,7 @@ af
 af
 af
 af
-aa
+iW
 ae
 aa
 aa
@@ -27295,7 +27349,7 @@ hH
 aa
 aa
 aa
-ae
+ou
 aa
 aa
 vA
@@ -36376,7 +36430,7 @@ bD
 DN
 ad
 ad
-ad
+tN
 gV
 hJ
 hJ
@@ -36578,13 +36632,13 @@ bD
 ad
 ad
 ad
-ad
+wT
 gX
 hK
 is
 hK
 DN
-kU
+Ot
 Bv
 ne
 Zy
