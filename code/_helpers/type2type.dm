@@ -147,6 +147,7 @@
 /proc/rights2text(rights,seperator="")
 	if (rights & R_BUILDMODE)   . += "[seperator]+BUILDMODE"
 	if (rights & R_ADMIN)       . += "[seperator]+ADMIN"
+	if (rights & R_MENTOR)     	. += "[seperator]+MENTOR"
 	if (rights & R_BAN)         . += "[seperator]+BAN"
 	if (rights & R_FUN)         . += "[seperator]+FUN"
 	if (rights & R_SERVER)      . += "[seperator]+SERVER"

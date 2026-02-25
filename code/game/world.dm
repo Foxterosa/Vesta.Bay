@@ -542,6 +542,7 @@ var/world_topic_spam_protect_time = world.timeofday
 
 /hook/startup/proc/loadMods()
 	world.load_mods()
+	world.load_mentors()
 	return 1
 
 /world/proc/load_mods()
@@ -559,6 +560,26 @@ var/world_topic_spam_protect_time = world.timeofday
 					continue
 
 				var/title = "Moderator"
+				var/rights = admin_ranks[title]
+
+				var/ckey = copytext(line, 1, length(line)+1)
+				var/datum/admins/D = new /datum/admins(title, rights, ckey)
+				D.associate(GLOB.ckey_directory[ckey])
+
+/world/proc/load_mentors()
+	if(config.admin_legacy_system)
+		var/text = file2text("config/mentors.txt")
+		if (!text)
+			error("Failed to load config/mentors.txt")
+		else
+			var/list/lines = splittext(text, "\n")
+			for(var/line in lines)
+				if (!line)
+					continue
+				if (copytext(line, 1, 2) == ";")
+					continue
+
+				var/title = "Mentor"
 				var/rights = admin_ranks[title]
 
 				var/ckey = copytext(line, 1, length(line)+1)
