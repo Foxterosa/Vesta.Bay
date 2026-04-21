@@ -5866,6 +5866,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/b_green/diagonal,
+/obj/machinery/suit_cycler,
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/equipment)
 "Rv" = (
